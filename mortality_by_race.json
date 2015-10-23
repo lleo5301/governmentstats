@@ -1,0 +1,1334 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "r9ma-bmym",
+      "name" : "Infant Mortality by Race/Ethnicity, 2004-2013",
+      "attribution" : "CDPH-CHSI-PHPRB-HIRS",
+      "attributionLink" : "http://www.apps.cdph.ca.gov/vsq/instruct.asp",
+      "averageRating" : 0,
+      "category" : "Demographics",
+      "createdAt" : 1413836470,
+      "description" : "This dataset is for infant mortality for 2004 through 2013. The death of a baby before his or her first birthday is called infant mortality. The dataset also includes California live birth population data that can be used to determine infant mortality rates. The infant mortality rate is an estimate of the number of infant deaths for every 1,000 live births. Race and Ethnicity of the infant is determined by the mother. As with any statistic, a rate based upon a small numerator and a much larger denominator may not be reliable.",
+      "displayType" : "table",
+      "downloadCount" : 404,
+      "indexUpdatedAt" : 1432325134,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 10206742,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1423781652,
+      "publicationGroup" : 1819037,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1423781615,
+      "rowsUpdatedBy" : "e4hj-vs2t",
+      "tableId" : 2238950,
+      "totalTimesRated" : 0,
+      "viewCount" : 801,
+      "viewLastModified" : 1427921596,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 189086467,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22489306,
+        "width" : 113,
+        "cachedContents" : {
+          "non_null" : 810,
+          "smallest" : "2004",
+          "sum" : "1626885",
+          "null" : 0,
+          "average" : "2008.5",
+          "largest" : "2013",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2013"
+          }, {
+            "count" : 19,
+            "item" : "2012"
+          }, {
+            "count" : 18,
+            "item" : "2011"
+          }, {
+            "count" : 17,
+            "item" : "2010"
+          }, {
+            "count" : 16,
+            "item" : "2009"
+          }, {
+            "count" : 15,
+            "item" : "2008"
+          }, {
+            "count" : 14,
+            "item" : "2007"
+          }, {
+            "count" : 13,
+            "item" : "2006"
+          }, {
+            "count" : 12,
+            "item" : "2005"
+          }, {
+            "count" : 11,
+            "item" : "2004"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 189086468,
+        "name" : "Race_Ethnicity",
+        "dataTypeName" : "text",
+        "description" : "- as determined by the mother.",
+        "fieldName" : "race_ethnicity",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22489307,
+        "width" : 166,
+        "cachedContents" : {
+          "non_null" : 810,
+          "smallest" : "American Indian",
+          "null" : 0,
+          "largest" : "White/Other",
+          "top" : [ {
+            "count" : 20,
+            "item" : "American Indian"
+          }, {
+            "count" : 19,
+            "item" : "Asian"
+          }, {
+            "count" : 18,
+            "item" : "Black"
+          }, {
+            "count" : 17,
+            "item" : "Hispanic"
+          }, {
+            "count" : 16,
+            "item" : "Not Stated or Unknown"
+          }, {
+            "count" : 15,
+            "item" : "Pacific Islander/Hawaiian"
+          }, {
+            "count" : 14,
+            "item" : "Two or more races"
+          }, {
+            "count" : 13,
+            "item" : "White/Other"
+          }, {
+            "count" : 12,
+            "item" : "Total"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 189086469,
+        "name" : "Gender",
+        "dataTypeName" : "text",
+        "fieldName" : "gender",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22489308,
+        "width" : 127,
+        "cachedContents" : {
+          "non_null" : 810,
+          "smallest" : "Female",
+          "null" : 0,
+          "largest" : "Total",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Male"
+          }, {
+            "count" : 19,
+            "item" : "Female"
+          }, {
+            "count" : 18,
+            "item" : "Total"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 189086470,
+        "name" : "Age at death",
+        "dataTypeName" : "text",
+        "description" : "Neonatal deaths are deaths less than 28 days old.  Postneonatal deaths are deaths at least 28 days old and less than 1 year old.",
+        "fieldName" : "age",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22489309,
+        "width" : 105,
+        "cachedContents" : {
+          "non_null" : 810,
+          "smallest" : "Neonatal",
+          "null" : 0,
+          "largest" : "Total",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Neonatal"
+          }, {
+            "count" : 19,
+            "item" : "PostNeonatal"
+          }, {
+            "count" : 18,
+            "item" : "Total"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 189086471,
+        "name" : "Count",
+        "dataTypeName" : "number",
+        "fieldName" : "count",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22489310,
+        "width" : 113,
+        "cachedContents" : {
+          "non_null" : 810,
+          "smallest" : "0",
+          "sum" : "210435",
+          "null" : 0,
+          "average" : "259.7962962962963",
+          "largest" : "2941",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2"
+          }, {
+            "count" : 19,
+            "item" : "4"
+          }, {
+            "count" : 18,
+            "item" : "5"
+          }, {
+            "count" : 17,
+            "item" : "1"
+          }, {
+            "count" : 16,
+            "item" : "3"
+          }, {
+            "count" : 15,
+            "item" : "6"
+          }, {
+            "count" : 14,
+            "item" : "0"
+          }, {
+            "count" : 13,
+            "item" : "7"
+          }, {
+            "count" : 12,
+            "item" : "8"
+          }, {
+            "count" : 11,
+            "item" : "907"
+          }, {
+            "count" : 10,
+            "item" : "2811"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 189086472,
+        "name" : "Total_LiveBirths_Denominator",
+        "dataTypeName" : "number",
+        "fieldName" : "total_livebirths_denominator",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22489311,
+        "width" : 262,
+        "cachedContents" : {
+          "non_null" : 810,
+          "smallest" : "839",
+          "sum" : "63722424",
+          "null" : 0,
+          "average" : "78669.65925925926",
+          "largest" : "566137",
+          "top" : [ {
+            "count" : 20,
+            "item" : "31886"
+          }, {
+            "count" : 19,
+            "item" : "30236"
+          }, {
+            "count" : 18,
+            "item" : "62122"
+          }, {
+            "count" : 17,
+            "item" : "14706"
+          }, {
+            "count" : 16,
+            "item" : "13973"
+          }, {
+            "count" : 15,
+            "item" : "28679"
+          }, {
+            "count" : 14,
+            "item" : "140168"
+          }, {
+            "count" : 13,
+            "item" : "135020"
+          }, {
+            "count" : 12,
+            "item" : "275188"
+          }, {
+            "count" : 11,
+            "item" : "3959"
+          }, {
+            "count" : 10,
+            "item" : "3780"
+          }, {
+            "count" : 9,
+            "item" : "7739"
+          }, {
+            "count" : 8,
+            "item" : "1276"
+          }, {
+            "count" : 7,
+            "item" : "1267"
+          }, {
+            "count" : 6,
+            "item" : "2543"
+          }, {
+            "count" : 5,
+            "item" : "3710"
+          }, {
+            "count" : 4,
+            "item" : "3452"
+          }, {
+            "count" : 3,
+            "item" : "7162"
+          }, {
+            "count" : 2,
+            "item" : "81557"
+          }, {
+            "count" : 1,
+            "item" : "77622"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 189086473,
+        "name" : "Rate",
+        "dataTypeName" : "number",
+        "description" : "per 1,000 live births in the calendar year.",
+        "fieldName" : "rate",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22489312,
+        "width" : 106,
+        "cachedContents" : {
+          "non_null" : 810,
+          "smallest" : "0",
+          "sum" : "3123.9",
+          "null" : 0,
+          "average" : "3.856666666666667",
+          "largest" : "16.3",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1.4"
+          }, {
+            "count" : 19,
+            "item" : "1"
+          }, {
+            "count" : 18,
+            "item" : "3.1"
+          }, {
+            "count" : 17,
+            "item" : "3.2"
+          }, {
+            "count" : 16,
+            "item" : "1.7"
+          }, {
+            "count" : 15,
+            "item" : "0"
+          }, {
+            "count" : 14,
+            "item" : "1.5"
+          }, {
+            "count" : 13,
+            "item" : "4.7"
+          }, {
+            "count" : 12,
+            "item" : "3.8"
+          }, {
+            "count" : 11,
+            "item" : "3.3"
+          }, {
+            "count" : 10,
+            "item" : "1.6"
+          }, {
+            "count" : 9,
+            "item" : "1.9"
+          }, {
+            "count" : 8,
+            "item" : "2.4"
+          }, {
+            "count" : 7,
+            "item" : "2.9"
+          }, {
+            "count" : 6,
+            "item" : "7.1"
+          }, {
+            "count" : 5,
+            "item" : "7.3"
+          }, {
+            "count" : 4,
+            "item" : "0.3"
+          }, {
+            "count" : 3,
+            "item" : "9.4"
+          }, {
+            "count" : 2,
+            "item" : "3.9"
+          }, {
+            "count" : 1,
+            "item" : "6.3"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Dataset Summary" : {
+            "Data Dictionary" : "See Attachments.",
+            "Publisher" : "California Department of Public Health",
+            "Limitations to Use (Rights)" : "Use of this data is subject to the CHHS Terms of Use and any copyright and proprietary notices incorporated in or accompanying the individual files. ",
+            "Posting Frequency" : "Annually",
+            "De-Identification Method" : "N/A",
+            "Spatial Coverage" : "California",
+            "Temporal Coverage" : "2004 - 2013",
+            "Language" : "English (EN)",
+            "Contact Point" : "For program-related questions: OHIR@cdph.ca.gov;  For media inquiries, contact CDPHPressOPA@cdph.ca.gov",
+            "Geographic Granularity" : "State",
+            "Citation" : "State of California, Department of Public Health, Death and Birth Records. 2014. "
+          },
+          "Narrative Information" : {
+            "Description" : "The following are description of categories for the Open Data Portal infant mortality dataset: RACE and ETHNICITY.  The race and ethnicity categories for this dataset are tabulated using the following race and ethnic groups: American Indian, Asian, Black, Hispanic, Pacific Islander, White/Other, Two or More Races, and Not Stated and Unknown.  Members of Hispanic origin are determined first and include the ethnic groups of Mexican/Mexican-American/Chicano, Puerto Rican, Cuban, Central/South American, and Other Spanish/Hispanic. All other members are then determined to be Non-Hispanic.  Second, from the Non-Hispanic members, the members of the Two or More Races group are determined and are not reported in single race categories. The single race and ethnic categories are defined as follows: “American Indian” category includes Aleut, American Indian, and Eskimo; “Asian” category includes Asian Indian, Asian (specified/unspecified), Cambodian, Chinese, Filipino, Hmong, Japanese, Korean, Laotian, Thai, and Vietnamese; “Black” category includes members having origins in any of the black racial groups of Africa; “Hispanic” category.  Please see definition above. “Pacific Islander” category includes Guamanian, Hawaiian, Samoan, and Other Pacific Islander; “White” category includes White and Other (specified); “Two or More Races” category includes members who identify themselves as belonging to multiple-race categories; “Not Stated and Unknown” category includes members who declined to state a race or members for whom the race is unknown. GENDER: “Males” include births with gender of child not reported. California Department of Public Health data can be found on the departmental website at:  http://www.cdph.ca.gov/data and http://www.cdph.ca.gov/data/statistics/Pages/InfantDeathDataTables.aspx",
+            "Data Collection Tool" : "Electronic Death Registration System and Automated Vital Statistics System"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "YrCsObHL2mrDrImyNRL6BG2vbaMQKu9yD-LIqrrdo5k",
+          "blobId" : "",
+          "name" : "Infant Mortality by Race Ethnicity, 2004-2013-DD.xlsx",
+          "filename" : "Infant Mortality by Race Ethnicity, 2009-2013-DD.xlsx"
+        } ]
+      },
+      "owner" : {
+        "id" : "paku-2qsp",
+        "displayName" : "CDPH-CHSI-1",
+        "roleName" : "administrator",
+        "screenName" : "CDPH-CHSI-1",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "paku-2qsp",
+        "displayName" : "CDPH-CHSI-1",
+        "roleName" : "administrator",
+        "screenName" : "CDPH-CHSI-1",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "infant", "death", "rate" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "EFBB45C9-168A-4F81-AF4A-DBF19A3492FE", 1, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "American Indian", "Male", "Neonatal", "2", "920", "2.2" ]
+, [ 2, "8BAF7955-AC00-405D-A18B-87B3156272D8", 2, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "American Indian", "Male", "PostNeonatal", "2", "920", "2.2" ]
+, [ 3, "EC0A8B5B-077A-4978-BCB0-CDE2022A2BCC", 3, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "American Indian", "Male", "Total", "4", "920", "4.3" ]
+, [ 4, "8B3D31A8-AE42-454C-9611-939029F899D0", 4, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "American Indian", "Female", "Neonatal", "3", "874", "3.4" ]
+, [ 5, "52B72FB7-53B9-48CE-A635-A540AD49A1AB", 5, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "American Indian", "Female", "PostNeonatal", "2", "874", "2.3" ]
+, [ 6, "E9A15FC0-7CAC-4352-AD78-209A5FF162CB", 6, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "American Indian", "Female", "Total", "5", "874", "5.7" ]
+, [ 7, "8CAC851A-A025-4D26-ABEF-63E38C965728", 7, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "American Indian", "Total", "Neonatal", "5", "1794", "2.8" ]
+, [ 8, "A7758A73-17ED-44B3-890D-82A5681CC4F2", 8, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "American Indian", "Total", "PostNeonatal", "4", "1794", "2.2" ]
+, [ 9, "679FFE84-9ABF-4EA6-9BA3-9ED4BA6E0FF8", 9, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "American Indian", "Total", "Total", "9", "1794", "5" ]
+, [ 10, "AB1E8CBB-D6BB-42D2-9E46-3F61C13CDCDE", 10, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Asian", "Male", "Neonatal", "58", "35286", "1.6" ]
+, [ 11, "23596A51-7F9D-400B-A2B7-886FFD141106", 11, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Asian", "Male", "PostNeonatal", "32", "35286", "0.9" ]
+, [ 12, "15A5DF17-E4BF-44A2-9752-17E5D19D9055", 12, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Asian", "Male", "Total", "90", "35286", "2.6" ]
+, [ 13, "CDFAECCE-AF88-4310-B41C-5BB908ADF97B", 13, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Asian", "Female", "Neonatal", "60", "32831", "1.8" ]
+, [ 14, "69791E6A-7D83-42E7-8F2C-66A07E8DBC45", 14, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Asian", "Female", "PostNeonatal", "20", "32831", "0.6" ]
+, [ 15, "6D04AC85-92F1-46D5-A7DA-58762D874701", 15, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Asian", "Female", "Total", "80", "32831", "2.4" ]
+, [ 16, "8E861E87-89B3-4477-94C8-56EC7261C368", 16, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Asian", "Total", "Neonatal", "118", "68117", "1.7" ]
+, [ 17, "8E5E76B4-EE43-4056-AA23-2B55C731D83D", 17, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Asian", "Total", "PostNeonatal", "52", "68117", "0.8" ]
+, [ 18, "06679AC2-58D9-4B6E-A67C-5690B48E1212", 18, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Asian", "Total", "Total", "170", "68117", "2.5" ]
+, [ 19, "BDD58854-F160-4C41-B9E7-9798A807EA3A", 19, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Black", "Male", "Neonatal", "95", "13186", "7.2" ]
+, [ 20, "D5E5C61E-89FC-4BF8-BBD5-A772D6D8568E", 20, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Black", "Male", "PostNeonatal", "64", "13186", "4.9" ]
+, [ 21, "AAFD63E8-98B4-4CE2-A7EB-6CEA8F382BC4", 21, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Black", "Male", "Total", "159", "13186", "12.1" ]
+, [ 22, "9AB730F6-A7BE-43D3-9AA4-5CC3BFB37ABF", 22, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Black", "Female", "Neonatal", "74", "12651", "5.8" ]
+, [ 23, "5456EEC7-B1CA-4BA4-BFAE-86808C0CAB11", 23, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Black", "Female", "PostNeonatal", "42", "12651", "3.3" ]
+, [ 24, "1C2ACFDE-AD71-4F5C-8F10-610C7EBA56F7", 24, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Black", "Female", "Total", "116", "12651", "9.2" ]
+, [ 25, "8323EC34-82B2-4B77-BD45-A02BD480C869", 25, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Black", "Total", "Neonatal", "169", "25837", "6.5" ]
+, [ 26, "B6F04A6F-DC78-44A6-8110-A8844D60C330", 26, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Black", "Total", "PostNeonatal", "106", "25837", "4.1" ]
+, [ 27, "FB0E7F12-8539-4DC9-B6B4-87DB4CE105D4", 27, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Black", "Total", "Total", "275", "25837", "10.6" ]
+, [ 28, "F12C1036-D32D-4411-B4C8-897737A5E291", 28, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Hispanic", "Male", "Neonatal", "471", "121769", "3.9" ]
+, [ 29, "22535AB3-61AE-42A9-B06C-0C473A390C23", 29, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Hispanic", "Male", "PostNeonatal", "199", "121769", "1.6" ]
+, [ 30, "F9D8D170-FDAA-4B15-8499-13D37257E666", 30, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Hispanic", "Male", "Total", "670", "121769", "5.5" ]
+, [ 31, "58B9CE9F-7AA6-4524-B667-19B26ED44DE7", 31, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Hispanic", "Female", "Neonatal", "397", "116431", "3.4" ]
+, [ 32, "798A80E9-1470-464B-9C86-151F6613D72C", 32, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Hispanic", "Female", "PostNeonatal", "145", "116431", "1.2" ]
+, [ 33, "4886E9A9-DC5F-4814-B05C-F156A2E63076", 33, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Hispanic", "Female", "Total", "542", "116431", "4.7" ]
+, [ 34, "D3DEA9C3-212F-4688-B7D1-A3E2A19E8C32", 34, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Hispanic", "Total", "Neonatal", "868", "238200", "3.6" ]
+, [ 35, "359ADC4A-94E4-401A-86FF-42647628D1CD", 35, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Hispanic", "Total", "PostNeonatal", "344", "238200", "1.4" ]
+, [ 36, "D4F43AFE-6752-47CC-87B7-65C1AC8D68FB", 36, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Hispanic", "Total", "Total", "1212", "238200", "5.1" ]
+, [ 37, "F137DA1C-266B-4261-A7B7-F551384B630D", 37, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Not Stated or Unknown", "Male", "Neonatal", "5", "4767", "1" ]
+, [ 38, "10A524CE-3B73-4517-8BA5-D06EEDEDED93", 38, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Not Stated or Unknown", "Male", "PostNeonatal", "1", "4767", "0.2" ]
+, [ 39, "BBAFCE23-7A6B-4384-A49C-576D8494D0A7", 39, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Not Stated or Unknown", "Male", "Total", "6", "4767", "1.3" ]
+, [ 40, "1B2F663B-1CD5-4A0D-8924-49022AAD0049", 40, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Not Stated or Unknown", "Female", "Neonatal", "4", "4618", "0.9" ]
+, [ 41, "C17D5EB9-008D-495B-BB4C-C175252F143A", 41, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Not Stated or Unknown", "Female", "PostNeonatal", "0", "4618", "0" ]
+, [ 42, "8FE7C6E2-926F-4CDF-A720-9237C36C28AE", 42, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Not Stated or Unknown", "Female", "Total", "4", "4618", "0.9" ]
+, [ 43, "C05BE5C3-4BEA-4E77-B723-31E01C1A5373", 43, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Not Stated or Unknown", "Total", "Neonatal", "9", "9385", "1" ]
+, [ 44, "7BAB8741-590A-4BF9-8DB2-0DA79075623A", 44, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Not Stated or Unknown", "Total", "PostNeonatal", "1", "9385", "0.1" ]
+, [ 45, "72038706-4C5A-4C7F-A9CF-1961F8416D8F", 45, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Not Stated or Unknown", "Total", "Total", "10", "9385", "1.1" ]
+, [ 46, "2BF65A82-9CF8-4AE0-B5B5-0E1277DBE0B6", 46, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Pacific Islander/Hawaiian", "Male", "Neonatal", "2", "1022", "2" ]
+, [ 47, "48329544-1B09-46F9-8447-9A27DDCB38CA", 47, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "2", "1022", "2" ]
+, [ 48, "CECBFC0B-2F5E-47B4-BB97-0DA034587EC9", 48, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Pacific Islander/Hawaiian", "Male", "Total", "4", "1022", "3.9" ]
+, [ 49, "03F85175-8F90-4DE3-9E53-9C00EC0932C5", 49, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Pacific Islander/Hawaiian", "Female", "Neonatal", "0", "972", "0" ]
+, [ 50, "EC25E88D-53CD-4E3B-A9C9-087740CE516E", 50, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "2", "972", "2.1" ]
+, [ 51, "ED53D732-D161-4CCC-B383-A26487DA1019", 51, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Pacific Islander/Hawaiian", "Female", "Total", "2", "972", "2.1" ]
+, [ 52, "80A51740-04F7-431A-B704-DFBD6E4294B2", 52, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Pacific Islander/Hawaiian", "Total", "Neonatal", "2", "1994", "1" ]
+, [ 53, "168B7AB1-A7B5-47C6-85D7-20385B5E3D5D", 53, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "4", "1994", "2" ]
+, [ 54, "189FC801-5DB6-4CE5-8A01-27D3CA842378", 54, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Pacific Islander/Hawaiian", "Total", "Total", "6", "1994", "3" ]
+, [ 55, "71403DAB-E55A-43F9-AF29-AE0245095E83", 55, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Two or more races", "Male", "Neonatal", "56", "5616", "10" ]
+, [ 56, "DA7DA5EB-5B23-4211-A3B1-FF897E1992AF", 56, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Two or more races", "Male", "PostNeonatal", "25", "5616", "4.5" ]
+, [ 57, "D40F0091-2C4A-428D-8B95-F105274A2DC8", 57, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Two or more races", "Male", "Total", "81", "5616", "14.4" ]
+, [ 58, "9B45B1FB-57FF-45E5-B78F-DB136E02E3C2", 58, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Two or more races", "Female", "Neonatal", "39", "5553", "7" ]
+, [ 59, "15BC9F50-289D-4145-A7C5-5291CF339648", 59, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Two or more races", "Female", "PostNeonatal", "13", "5553", "2.3" ]
+, [ 60, "204B60DD-C58D-4C49-86A8-CD334A9A394B", 60, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Two or more races", "Female", "Total", "52", "5553", "9.4" ]
+, [ 61, "AFEAE1BD-C349-4B66-BB63-A2DAA7087999", 61, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Two or more races", "Total", "Neonatal", "95", "11169", "8.5" ]
+, [ 62, "225E78D7-2E68-44B8-8057-4102A2AE4749", 62, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Two or more races", "Total", "PostNeonatal", "38", "11169", "3.4" ]
+, [ 63, "791A682D-6828-4E3F-8107-4CC6F9BE04B7", 63, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Two or more races", "Total", "Total", "133", "11169", "11.9" ]
+, [ 64, "2A11D3E7-54F0-442F-876F-BBD59B2200EC", 64, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "White/Other", "Male", "Neonatal", "194", "70765", "2.7" ]
+, [ 65, "AE69180F-E58B-4953-9BF2-A3842CF47CB7", 65, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "White/Other", "Male", "PostNeonatal", "93", "70765", "1.3" ]
+, [ 66, "44E7714C-FBE5-46D0-ACFA-0851CF1B5F20", 66, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "White/Other", "Male", "Total", "287", "70765", "4.1" ]
+, [ 67, "62087C6D-7721-4D48-8765-51B1FC1E2D79", 67, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "White/Other", "Female", "Neonatal", "181", "67131", "2.7" ]
+, [ 68, "5769C0D3-C8D9-4323-A0FA-75B2C26FAD21", 68, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "White/Other", "Female", "PostNeonatal", "65", "67131", "1" ]
+, [ 69, "30C2682F-CDA2-4DC2-8165-F0471354DDEA", 69, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "White/Other", "Female", "Total", "246", "67131", "3.7" ]
+, [ 70, "E2C01AC8-1DAE-4AB9-BA17-7608BF3F57F2", 70, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "White/Other", "Total", "Neonatal", "375", "137896", "2.7" ]
+, [ 71, "C3255F60-73E6-4F34-8712-64288D92B3E6", 71, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "White/Other", "Total", "PostNeonatal", "158", "137896", "1.1" ]
+, [ 72, "F41EB2B1-D34A-4863-8CC2-5DAC8A94C6CA", 72, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "White/Other", "Total", "Total", "533", "137896", "3.9" ]
+, [ 73, "1662658D-E62D-4129-A148-B774BF6EBD2F", 73, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Total", "Male", "Neonatal", "883", "253331", "3.5" ]
+, [ 74, "4EC1086B-34E8-4637-8493-98D0A1D8B96A", 74, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Total", "Male", "PostNeonatal", "418", "253331", "1.7" ]
+, [ 75, "0BCBDC30-1FD3-4DA8-A1E1-A994566030C2", 75, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Total", "Male", "Total", "1301", "253331", "5.1" ]
+, [ 76, "A88F5801-1D15-44E7-9891-78B226804D4E", 76, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Total", "Female", "Neonatal", "758", "241061", "3.1" ]
+, [ 77, "A48F3994-CA5E-4746-BFEB-11DF1CAB6C30", 77, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Total", "Female", "PostNeonatal", "292", "241061", "1.2" ]
+, [ 78, "9FCCECF9-82BB-4A7A-A39A-8EC1B8DC387A", 78, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Total", "Female", "Total", "1047", "241061", "4.3" ]
+, [ 79, "54A9D523-8CD3-4E5A-80B1-98857D9DB4AD", 79, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Total", "Total", "Neonatal", "1641", "494392", "3.3" ]
+, [ 80, "4908A3FE-C149-4423-A455-1B5C404716CD", 80, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Total", "Total", "PostNeonatal", "707", "494392", "1.4" ]
+, [ 81, "D46D2034-4F35-4B22-A8F8-D0BE7ECAB83B", 81, 1423781601, "889387", 1423781601, "889387", "{\n}", "2013", "Total", "Total", "Total", "2348", "494392", "4.7" ]
+, [ 82, "0747FED5-FB36-44A2-AA2D-380F7DDCBA68", 82, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "American Indian", "Male", "Neonatal", "1", "895", "1.1" ]
+, [ 83, "3D8096DB-4683-4B7F-9737-DA6F80A5BDE0", 83, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "American Indian", "Male", "PostNeonatal", "1", "895", "1.1" ]
+, [ 84, "05FC6F7C-F259-46CA-A6F2-04D9BE0EF52A", 84, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "American Indian", "Male", "Total", "2", "895", "2.2" ]
+, [ 85, "D7EA12EA-F650-41E3-9B0D-FAF3F2E25B0E", 85, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "American Indian", "Female", "Neonatal", "3", "868", "3.5" ]
+, [ 86, "E969B9A5-290E-448C-AB63-C93CCC56354C", 86, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "American Indian", "Female", "PostNeonatal", "2", "868", "2.3" ]
+, [ 87, "8DD35AE9-5277-4612-BE19-52CCD9311653", 87, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "American Indian", "Female", "Total", "5", "868", "5.8" ]
+, [ 88, "DB7FACDB-1939-4CD3-8A50-3F07A29A948C", 88, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "American Indian", "Total", "Neonatal", "4", "1763", "2.3" ]
+, [ 89, "727A88A6-1126-4E5C-9EAE-67092FDE91D3", 89, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "American Indian", "Total", "PostNeonatal", "3", "1763", "1.7" ]
+, [ 90, "9F4E76CD-3445-4541-B864-CF2DFF53CDDE", 90, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "American Indian", "Total", "Total", "7", "1763", "4" ]
+, [ 91, "582D488D-DF7E-4C02-9799-0CB6F43D1476", 91, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Asian", "Male", "Neonatal", "83", "35578", "2.3" ]
+, [ 92, "86A919C7-D6E2-4C99-8003-1453229242BC", 92, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Asian", "Male", "PostNeonatal", "27", "35578", "0.8" ]
+, [ 93, "6DCBEB91-1F10-47BC-B25F-32EBC7193CF7", 93, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Asian", "Male", "Total", "110", "35578", "3.1" ]
+, [ 94, "09C68DB6-DF78-45EA-902A-C359BFBB598C", 94, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Asian", "Female", "Neonatal", "66", "32969", "2" ]
+, [ 95, "906A0218-0362-4052-B9B6-52A8EEABD1F4", 95, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Asian", "Female", "PostNeonatal", "22", "32969", "0.7" ]
+, [ 96, "AF8BEA0D-E55F-48BA-BAAD-8E4CDEDC5213", 96, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Asian", "Female", "Total", "88", "32969", "2.7" ]
+, [ 97, "328D816B-FC20-4F76-9D3A-1142919DE6D3", 97, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Asian", "Total", "Neonatal", "149", "68547", "2.2" ]
+, [ 98, "9E8E14A0-F6F4-412C-8386-424C03C284F7", 98, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Asian", "Total", "PostNeonatal", "49", "68547", "0.7" ]
+, [ 99, "F9733A3E-2401-4514-AC93-7FE7D5AF2B8B", 99, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Asian", "Total", "Total", "198", "68547", "2.9" ]
+, [ 100, "81DD52E2-308F-4743-AAD1-C2B59AA8E399", 100, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Black", "Male", "Neonatal", "97", "13509", "7.2" ]
+, [ 101, "28FA8D27-2782-4CB0-98D0-94BEA27E519F", 101, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Black", "Male", "PostNeonatal", "61", "13509", "4.5" ]
+, [ 102, "ECE070F6-2785-4B49-81F5-1289C742E312", 102, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Black", "Male", "Total", "158", "13509", "11.7" ]
+, [ 103, "82D4D5D0-2AFA-4D01-AF6F-7A5B6D350204", 103, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Black", "Female", "Neonatal", "67", "13024", "5.1" ]
+, [ 104, "65FECEB5-83EA-4AE7-8C45-477693DB9487", 104, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Black", "Female", "PostNeonatal", "36", "13024", "2.8" ]
+, [ 105, "0DB9E62A-86C2-44CA-9407-25B299BC493C", 105, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Black", "Female", "Total", "103", "13024", "7.9" ]
+, [ 106, "CDCC9A1F-D3A1-4C96-8782-35950BE3A383", 106, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Black", "Total", "Neonatal", "164", "26533", "6.2" ]
+, [ 107, "0522106E-DAB7-4ADF-A6B7-ED91FE30CC1A", 107, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Black", "Total", "PostNeonatal", "97", "26533", "3.7" ]
+, [ 108, "B43AEB5A-39D5-457A-A2FB-44F948AC69F7", 108, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Black", "Total", "Total", "261", "26533", "9.8" ]
+, [ 109, "F5ADCDCC-4A3D-4FE9-8590-AD45B28AC997", 109, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Hispanic", "Male", "Neonatal", "430", "124264", "3.5" ]
+, [ 110, "201FC088-B497-40B2-8C30-4A07B9FF19E5", 110, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Hispanic", "Male", "PostNeonatal", "178", "124264", "1.4" ]
+, [ 111, "8ADE8ED3-1F19-452F-B22F-AFB917F81C6E", 111, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Hispanic", "Male", "Total", "608", "124264", "4.9" ]
+, [ 112, "2FA9C7A9-1B8E-4E2E-BDA9-02F7B502EE57", 112, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Hispanic", "Female", "Neonatal", "398", "120352", "3.3" ]
+, [ 113, "55B73CDA-FDAD-4095-91E7-4DC99A4D5C43", 113, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Hispanic", "Female", "PostNeonatal", "153", "120352", "1.3" ]
+, [ 114, "027D7509-E900-4506-8467-D34804155A45", 114, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Hispanic", "Female", "Total", "551", "120352", "4.6" ]
+, [ 115, "8B300728-E40A-455C-894B-B518FD962A68", 115, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Hispanic", "Total", "Neonatal", "828", "244616", "3.4" ]
+, [ 116, "F7DC37A1-9CC2-4F49-9B8A-9727105CD34F", 116, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Hispanic", "Total", "PostNeonatal", "331", "244616", "1.4" ]
+, [ 117, "13279C6A-D297-40E7-B991-103812EBB92F", 117, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Hispanic", "Total", "Total", "1159", "244616", "4.7" ]
+, [ 118, "80695C6F-CBDC-4DDE-BBA8-7049843DC48A", 118, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Not Stated or Unknown", "Male", "Neonatal", "2", "5981", "0.3" ]
+, [ 119, "1051CF1A-2520-4887-942D-AD9F96953298", 119, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Not Stated or Unknown", "Male", "PostNeonatal", "0", "5981", "0" ]
+, [ 120, "FABB1B1F-E37C-4F92-8578-355E2BFAA7DC", 120, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Not Stated or Unknown", "Male", "Total", "2", "5981", "0.3" ]
+, [ 121, "344005C5-F0A5-425A-8AE7-86A1DD87B655", 121, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Not Stated or Unknown", "Female", "Neonatal", "3", "5789", "0.5" ]
+, [ 122, "08E0458D-AD9E-4721-94DA-A383ADAD1FC0", 122, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Not Stated or Unknown", "Female", "PostNeonatal", "2", "5789", "0.3" ]
+, [ 123, "D03081FE-D345-4A84-9E34-47EA3E5CF736", 123, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Not Stated or Unknown", "Female", "Total", "5", "5789", "0.9" ]
+, [ 124, "6D767FD8-461D-4E57-91DA-7ACAFDFC6A3B", 124, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Not Stated or Unknown", "Total", "Neonatal", "5", "11770", "0.4" ]
+, [ 125, "82955D44-B21F-4C49-8F88-E6614DEAC0D4", 125, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Not Stated or Unknown", "Total", "PostNeonatal", "2", "11770", "0.2" ]
+, [ 126, "C2A04B22-2197-46D0-8DDD-65F695376C4F", 126, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Not Stated or Unknown", "Total", "Total", "7", "11770", "0.6" ]
+, [ 127, "7FA6E3DB-2E19-499D-BDCA-2E22E3E7DDF9", 127, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Pacific Islander/Hawaiian", "Male", "Neonatal", "3", "1053", "2.8" ]
+, [ 128, "E0DF53BC-E607-4B2F-8546-D4AF97A830EB", 128, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "0", "1053", "0" ]
+, [ 129, "7FFFDA1A-45FB-4932-9E63-CB8D68877371", 129, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Pacific Islander/Hawaiian", "Male", "Total", "3", "1053", "2.8" ]
+, [ 130, "286F4B99-C4A6-45A1-9F44-7A6241FCAC3E", 130, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Pacific Islander/Hawaiian", "Female", "Neonatal", "4", "984", "4.1" ]
+, [ 131, "EEFAAA5B-5136-4943-8E6C-31781CD15603", 131, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "1", "984", "1" ]
+, [ 132, "A097E76A-BE4C-4E01-B5CD-76F76FEC031B", 132, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Pacific Islander/Hawaiian", "Female", "Total", "5", "984", "5.1" ]
+, [ 133, "019A5339-F005-458C-BDD9-0FFF85939065", 133, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Pacific Islander/Hawaiian", "Total", "Neonatal", "7", "2037", "3.4" ]
+, [ 134, "93587B22-777B-4024-9138-AA5CE821D349", 134, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "1", "2037", "0.5" ]
+, [ 135, "A69BE3A0-9C6F-4C7B-A2CB-A6ABFBA68F0A", 135, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Pacific Islander/Hawaiian", "Total", "Total", "8", "2037", "3.9" ]
+, [ 136, "E8243A65-662A-4E26-A97B-86D9FEE1DC1D", 136, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Two or more races", "Male", "Neonatal", "25", "5597", "4.5" ]
+, [ 137, "A979F0D9-7CDE-48C8-92DC-EE54C86BA9DF", 137, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Two or more races", "Male", "PostNeonatal", "17", "5597", "3" ]
+, [ 138, "4A7D7967-30D0-4E21-8C06-48FAC3A8DB67", 138, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Two or more races", "Male", "Total", "42", "5597", "7.5" ]
+, [ 139, "851B2810-28B6-4FBD-B03B-AD57E06B3777", 139, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Two or more races", "Female", "Neonatal", "27", "5335", "5.1" ]
+, [ 140, "3DAEB7AF-9B70-427B-99B9-7BA2E3701956", 140, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Two or more races", "Female", "PostNeonatal", "15", "5335", "2.8" ]
+, [ 141, "591B0513-96B0-4271-A760-AE5A9B1FA142", 141, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Two or more races", "Female", "Total", "42", "5335", "7.9" ]
+, [ 142, "8CE4662D-4E96-4009-9583-E05CF8339383", 142, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Two or more races", "Total", "Neonatal", "52", "10932", "4.8" ]
+, [ 143, "3EAECF7F-CB23-4D19-AE7E-B62738C32552", 143, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Two or more races", "Total", "PostNeonatal", "32", "10932", "2.9" ]
+, [ 144, "6392FB50-DD09-4D77-AE05-B358231F1034", 144, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Two or more races", "Total", "Total", "84", "10932", "7.7" ]
+, [ 145, "57AC4D4F-C7A2-4B27-9EA0-EB57BF1585C8", 145, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "White/Other", "Male", "Neonatal", "202", "70580", "2.9" ]
+, [ 146, "513ED276-420A-46C2-A3CD-81AE69690490", 146, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "White/Other", "Male", "PostNeonatal", "95", "70580", "1.3" ]
+, [ 147, "64B429B7-450D-4CCA-8473-BE8A1C220465", 147, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "White/Other", "Male", "Total", "297", "70580", "4.2" ]
+, [ 148, "574443E3-4D3C-4260-A878-F62657F2DE8B", 148, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "White/Other", "Female", "Neonatal", "164", "67010", "2.4" ]
+, [ 149, "BF4E1B03-D1FC-4E3F-8C4E-B802AE93FC2F", 149, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "White/Other", "Female", "PostNeonatal", "62", "67010", "0.9" ]
+, [ 150, "2744C43C-C0A5-484A-96B7-158112CF37B2", 150, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "White/Other", "Female", "Total", "226", "67010", "3.4" ]
+, [ 151, "843B5E7F-3DC3-4741-B0D1-5B97F8750CAE", 151, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "White/Other", "Total", "Neonatal", "366", "137590", "2.7" ]
+, [ 152, "23D1B43C-7F16-4C8A-89B8-675823931183", 152, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "White/Other", "Total", "PostNeonatal", "157", "137590", "1.1" ]
+, [ 153, "49A0AF95-FF96-45B3-BA2E-CA250C58F76B", 153, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "White/Other", "Total", "Total", "523", "137590", "3.8" ]
+, [ 154, "15F54037-5FD1-42A9-B1FA-D4097C333593", 154, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Total", "Male", "Neonatal", "843", "257457", "3.3" ]
+, [ 155, "73E81156-F1D1-46CB-8DE4-64F1CE0607B5", 155, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Total", "Male", "PostNeonatal", "379", "257457", "1.5" ]
+, [ 156, "E9BED011-0A37-410A-9AF2-4504B9089ED8", 156, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Total", "Male", "Total", "1222", "257457", "4.7" ]
+, [ 157, "3806B027-1746-4E2B-8EC2-8AB308218A13", 157, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Total", "Female", "Neonatal", "732", "246331", "3" ]
+, [ 158, "2F763D2B-C3B1-400F-BCBA-4F7CDF3B52A9", 158, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Total", "Female", "PostNeonatal", "293", "246331", "1.2" ]
+, [ 159, "C279A43E-3CAD-4477-8FCF-9F120DB968AC", 159, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Total", "Female", "Total", "1025", "246331", "4.2" ]
+, [ 160, "A846C045-24AA-4BD4-9582-DD58473F1DB4", 160, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Total", "Total", "Neonatal", "1575", "503788", "3.1" ]
+, [ 161, "361BC630-21A0-4C5D-AC1C-BEF19FD7B59F", 161, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Total", "Total", "PostNeonatal", "672", "503788", "1.3" ]
+, [ 162, "F23F7944-8472-453B-AEB6-B259C9D62B98", 162, 1423781601, "889387", 1423781601, "889387", "{\n}", "2012", "Total", "Total", "Total", "2247", "503788", "4.5" ]
+, [ 163, "42921B6B-C5E9-4476-8116-63C4DDB43646", 163, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "American Indian", "Male", "Neonatal", "4", "965", "4.1" ]
+, [ 164, "894A6E22-AD3A-4259-8182-8C08C026A4D6", 164, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "American Indian", "Male", "PostNeonatal", "3", "965", "3.1" ]
+, [ 165, "E99E840D-A22E-4B42-8A28-4173AFF6311F", 165, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "American Indian", "Male", "Total", "7", "965", "7.3" ]
+, [ 166, "EB60A44D-F84C-4289-86EA-E697A53E7B5A", 166, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "American Indian", "Female", "Neonatal", "1", "839", "1.2" ]
+, [ 167, "D6823D13-B0F2-44BC-B17D-42E6224EB629", 167, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "American Indian", "Female", "PostNeonatal", "2", "839", "2.4" ]
+, [ 168, "8F0EFA8A-FC32-4B64-9A32-4685D5A40DB8", 168, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "American Indian", "Female", "Total", "3", "839", "3.6" ]
+, [ 169, "8FA399EA-6A6A-4B19-9BC8-E3C58029E571", 169, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "American Indian", "Total", "Neonatal", "5", "1804", "2.8" ]
+, [ 170, "73484990-7252-4F8D-AE98-876C269EF486", 170, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "American Indian", "Total", "PostNeonatal", "5", "1804", "2.8" ]
+, [ 171, "DAE6727A-9B24-442D-88C1-180895705DAE", 171, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "American Indian", "Total", "Total", "10", "1804", "5.5" ]
+, [ 172, "51ACCC53-1864-413B-BA4B-C72C43F29106", 172, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Asian", "Male", "Neonatal", "70", "31889", "2.2" ]
+, [ 173, "221BBC23-E0C5-43B9-AE86-58637EAE3BC8", 173, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Asian", "Male", "PostNeonatal", "25", "31889", "0.8" ]
+, [ 174, "49A296CC-A881-43D3-B047-CFD358D2BF8F", 174, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Asian", "Male", "Total", "95", "31889", "3" ]
+, [ 175, "50E566C8-1362-4F1F-BC47-E7FBE1ADCEC5", 175, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Asian", "Female", "Neonatal", "52", "30018", "1.7" ]
+, [ 176, "F68CD19B-8F09-43D9-860D-3C2B7C263B0E", 176, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Asian", "Female", "PostNeonatal", "27", "30018", "0.9" ]
+, [ 177, "2A3438EE-65AB-470B-BA6E-1D2FF6199A1B", 177, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Asian", "Female", "Total", "79", "30018", "2.6" ]
+, [ 178, "9A1468F8-E09E-40C9-A339-C454FFE16AA3", 178, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Asian", "Total", "Neonatal", "122", "61907", "2" ]
+, [ 179, "910159A9-C9C8-446B-A407-E094436FE16D", 179, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Asian", "Total", "PostNeonatal", "52", "61907", "0.8" ]
+, [ 180, "B3D8DD14-45D5-4686-9E8E-32AF58A53BB1", 180, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Asian", "Total", "Total", "174", "61907", "2.8" ]
+, [ 181, "F67D1EF6-6B55-43EF-938E-84847EC3CA73", 181, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Black", "Male", "Neonatal", "109", "13781", "7.9" ]
+, [ 182, "20752775-E427-4E21-8CBC-D0F76E3FE50C", 182, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Black", "Male", "PostNeonatal", "62", "13781", "4.5" ]
+, [ 183, "0D8BEAEC-09A2-44A4-B623-3612F59B367A", 183, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Black", "Male", "Total", "171", "13781", "12.4" ]
+, [ 184, "1F8FF5F2-B4D4-4F82-9CEC-C2968B9CF2B2", 184, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Black", "Female", "Neonatal", "75", "13301", "5.6" ]
+, [ 185, "63DF753F-CF34-40A4-9B4E-B7F6BD0D5BD0", 185, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Black", "Female", "PostNeonatal", "38", "13301", "2.9" ]
+, [ 186, "EE56ABA1-72D2-4F61-9605-5F166F07BE9A", 186, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Black", "Female", "Total", "113", "13301", "8.5" ]
+, [ 187, "1F1A1264-EDD1-41F5-AB55-14AB809DEB27", 187, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Black", "Total", "Neonatal", "184", "27082", "6.8" ]
+, [ 188, "830BAF94-9A44-4FFA-8BB9-220DDD8E1B85", 188, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Black", "Total", "PostNeonatal", "100", "27082", "3.7" ]
+, [ 189, "18D1FF1E-61A4-4C6F-9E62-5B9E6BAB0925", 189, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Black", "Total", "Total", "284", "27082", "10.5" ]
+, [ 190, "219F97B9-8E23-4401-A85D-55D789E7AEBD", 190, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Hispanic", "Male", "Neonatal", "489", "127549", "3.8" ]
+, [ 191, "D48BAB9B-3AA6-49ED-ACF3-3C1AB095D808", 191, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Hispanic", "Male", "PostNeonatal", "176", "127549", "1.4" ]
+, [ 192, "475871C7-2F95-4198-84CD-9E91E7478D2D", 192, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Hispanic", "Male", "Total", "665", "127549", "5.2" ]
+, [ 193, "D83229EB-B4C1-4E94-9C0B-676B98D35EC3", 193, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Hispanic", "Female", "Neonatal", "407", "122126", "3.3" ]
+, [ 194, "1517EC1C-5C18-45C8-89A5-B9E8C91B18B4", 194, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Hispanic", "Female", "PostNeonatal", "156", "122126", "1.3" ]
+, [ 195, "4EE2E038-0F3C-46E4-B512-5B53DED14E10", 195, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Hispanic", "Female", "Total", "563", "122126", "4.6" ]
+, [ 196, "25E2C37F-3455-473E-AF29-8EAFE2812A90", 196, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Hispanic", "Total", "Neonatal", "896", "249675", "3.6" ]
+, [ 197, "F3FC9253-CD49-43F1-8478-59E58953772D", 197, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Hispanic", "Total", "PostNeonatal", "332", "249675", "1.3" ]
+, [ 198, "EE9EBDEC-5484-481D-8071-09AF6588F865", 198, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Hispanic", "Total", "Total", "1228", "249675", "4.9" ]
+, [ 199, "8FC8A8CC-8FED-438A-90A9-2C0D87F7ED6E", 199, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Not Stated or Unknown", "Male", "Neonatal", "7", "4744", "1.5" ]
+, [ 200, "00931C85-C418-4881-9B93-4BA9B1323DB6", 200, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Not Stated or Unknown", "Male", "PostNeonatal", "0", "4744", "0" ]
+, [ 201, "F0EB9D6F-CDFC-4B6C-A78A-1B8E6B3698DE", 201, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Not Stated or Unknown", "Male", "Total", "7", "4744", "1.5" ]
+, [ 202, "12A6296F-7A69-48FC-A0E6-35052AA6FC7A", 202, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Not Stated or Unknown", "Female", "Neonatal", "3", "4472", "0.7" ]
+, [ 203, "2C09820D-A05C-47D4-9479-5FDB43DD521F", 203, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Not Stated or Unknown", "Female", "PostNeonatal", "2", "4472", "0.4" ]
+, [ 204, "9EC3D4D8-1786-4C69-9BF3-FDEF87FD690E", 204, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Not Stated or Unknown", "Female", "Total", "5", "4472", "1.1" ]
+, [ 205, "E1E31723-C401-4051-8C89-0AD5105590BC", 205, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Not Stated or Unknown", "Total", "Neonatal", "10", "9216", "1.1" ]
+, [ 206, "5FD1E14A-1F3F-4BC7-846C-1D2483073B41", 206, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Not Stated or Unknown", "Total", "PostNeonatal", "2", "9216", "0.2" ]
+, [ 207, "0057D531-1DCE-4070-B56A-8220481344D1", 207, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Not Stated or Unknown", "Total", "Total", "12", "9216", "1.3" ]
+, [ 208, "AFFD06A6-BCF5-45A2-A900-E63C42D99ADB", 208, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Pacific Islander/Hawaiian", "Male", "Neonatal", "7", "1096", "6.4" ]
+, [ 209, "E63E37CC-7BA2-4E24-9BB6-57D1AC732F55", 209, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "8", "1096", "7.3" ]
+, [ 210, "3F6F29E6-C48B-4C76-B6C4-92D1128D5307", 210, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Pacific Islander/Hawaiian", "Male", "Total", "15", "1096", "13.7" ]
+, [ 211, "6CFB5707-CB8F-4FC0-B00E-BF6F4665A424", 211, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Pacific Islander/Hawaiian", "Female", "Neonatal", "3", "1057", "2.8" ]
+, [ 212, "A7AE1280-C86E-46BA-B06D-66AF2FC8F48B", 212, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "2", "1057", "1.9" ]
+, [ 213, "C896B73B-94DF-4C89-B2BD-7D4FBB73AF49", 213, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Pacific Islander/Hawaiian", "Female", "Total", "5", "1057", "4.7" ]
+, [ 214, "67B5AB92-1A59-4E6B-A823-DD98B9D79B3B", 214, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Pacific Islander/Hawaiian", "Total", "Neonatal", "10", "2153", "4.6" ]
+, [ 215, "1F38751D-7951-4984-96E9-2AEA4B94D62D", 215, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "10", "2153", "4.6" ]
+, [ 216, "83D309F5-6A20-4905-BEDD-29FC3638D509", 216, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Pacific Islander/Hawaiian", "Total", "Total", "20", "2153", "9.3" ]
+, [ 217, "20684F51-3461-41B6-9AC3-8BB2E7AEC778", 217, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Two or more races", "Male", "Neonatal", "34", "5357", "6.3" ]
+, [ 218, "267E145E-305A-4A90-9F25-CD2C39BF9763", 218, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Two or more races", "Male", "PostNeonatal", "13", "5357", "2.4" ]
+, [ 219, "9CD7CF8A-894F-46E1-BF7B-7386C1F96927", 219, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Two or more races", "Male", "Total", "47", "5357", "8.8" ]
+, [ 220, "8DAC65D2-77D7-4C56-B40C-3CB899196238", 220, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Two or more races", "Female", "Neonatal", "30", "5241", "5.7" ]
+, [ 221, "C90A1CE2-FE5F-4733-ADFA-4E9B7561394F", 221, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Two or more races", "Female", "PostNeonatal", "19", "5241", "3.6" ]
+, [ 222, "BEA27151-0769-4294-BE99-317CA57C3719", 222, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Two or more races", "Female", "Total", "49", "5241", "9.3" ]
+, [ 223, "8A6869EE-4CE9-466D-851D-0E4FF1979F44", 223, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Two or more races", "Total", "Neonatal", "64", "10598", "6" ]
+, [ 224, "82F10478-FA73-476D-91B2-AA780395AB8A", 224, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Two or more races", "Total", "PostNeonatal", "32", "10598", "3" ]
+, [ 225, "F5228D7E-FE6D-4F17-8A28-9746888CB25C", 225, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Two or more races", "Total", "Total", "96", "10598", "9.1" ]
+, [ 226, "B1E4FD0E-64C5-47A6-BA27-243F75DAE13A", 226, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "White/Other", "Male", "Neonatal", "209", "71804", "2.9" ]
+, [ 227, "395D89DE-96E5-4D6E-9120-5161E73DDCCA", 227, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "White/Other", "Male", "PostNeonatal", "98", "71804", "1.4" ]
+, [ 228, "64E18C03-7771-4549-9025-90A86E2EE58A", 228, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "White/Other", "Male", "Total", "307", "71804", "4.3" ]
+, [ 229, "F70B0E5E-88BC-45CB-BC28-B9072B8056BE", 229, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "White/Other", "Female", "Neonatal", "192", "67784", "2.8" ]
+, [ 230, "AEC17B24-2D89-4F0B-91AB-1F0110AC57EE", 230, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "White/Other", "Female", "PostNeonatal", "74", "67784", "1.1" ]
+, [ 231, "586E0252-783A-49AA-B693-3113838B7474", 231, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "White/Other", "Female", "Total", "266", "67784", "3.9" ]
+, [ 232, "2E039303-C73C-480A-BE81-F467B696D1EB", 232, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "White/Other", "Total", "Neonatal", "401", "139588", "2.9" ]
+, [ 233, "4E119683-1933-4CB7-A35A-181311EE8800", 233, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "White/Other", "Total", "PostNeonatal", "172", "139588", "1.2" ]
+, [ 234, "224D0E9F-DC40-45C3-9ECB-3D58BFA4620F", 234, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "White/Other", "Total", "Total", "573", "139588", "4.1" ]
+, [ 235, "E215BCF2-972D-487B-ACEB-01C611474AA9", 235, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Total", "Male", "Neonatal", "929", "257185", "3.6" ]
+, [ 236, "29749BC7-D20E-48B5-8E9D-6FC6C5AFB748", 236, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Total", "Male", "PostNeonatal", "385", "257185", "1.5" ]
+, [ 237, "ABB42397-B29F-472E-90F1-FCDCA0D48DB5", 237, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Total", "Male", "Total", "1314", "257185", "5.1" ]
+, [ 238, "EE27A1DC-18E0-4615-AB3A-5454EADD440F", 238, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Total", "Female", "Neonatal", "763", "244838", "3.1" ]
+, [ 239, "B826A424-EDBA-4CC4-8A6A-320DCFE67400", 239, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Total", "Female", "PostNeonatal", "320", "244838", "1.3" ]
+, [ 240, "F47CB3FA-35AA-4BC2-BD47-E782A6293DF6", 240, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Total", "Female", "Total", "1083", "244838", "4.4" ]
+, [ 241, "99F637D7-BAC8-4A63-B8FF-ED7A19D2C281", 241, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Total", "Total", "Neonatal", "1692", "502023", "3.4" ]
+, [ 242, "54981FDD-A110-4B30-8C08-BF99796834A5", 242, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Total", "Total", "PostNeonatal", "705", "502023", "1.4" ]
+, [ 243, "0ACFBBC2-F061-4BE5-B507-344579279209", 243, 1423781601, "889387", 1423781601, "889387", "{\n}", "2011", "Total", "Total", "Total", "2397", "502023", "4.8" ]
+, [ 244, "2CDDEC3E-4224-4562-892C-16997D37F6F9", 244, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "American Indian", "Male", "Neonatal", "7", "972", "7.2" ]
+, [ 245, "5AF170EE-FA85-448D-BAEF-B47ACD7B76A5", 245, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "American Indian", "Male", "PostNeonatal", "4", "972", "4.1" ]
+, [ 246, "41EF456A-9D27-4036-A008-872990476B73", 246, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "American Indian", "Male", "Total", "11", "972", "11.3" ]
+, [ 247, "6B66CEAF-5674-428B-9453-EE04AD8B98E6", 247, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "American Indian", "Female", "Neonatal", "4", "938", "4.3" ]
+, [ 248, "A5B5AF11-D631-42D4-9717-5320F37C7412", 248, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "American Indian", "Female", "PostNeonatal", "0", "938", "0" ]
+, [ 249, "D8A7B557-B733-4C6B-B61A-FBF2CE313BCC", 249, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "American Indian", "Female", "Total", "4", "938", "4.3" ]
+, [ 250, "65C0597A-FD98-4DEE-9040-DB5C0C82002F", 250, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "American Indian", "Total", "Neonatal", "11", "1910", "5.8" ]
+, [ 251, "E9ACF5A7-54D8-487A-85DA-5F24FDBE80A8", 251, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "American Indian", "Total", "PostNeonatal", "4", "1910", "2.1" ]
+, [ 252, "11F229BC-E165-47AC-8B19-D590BFF5155C", 252, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "American Indian", "Total", "Total", "15", "1910", "7.9" ]
+, [ 253, "A2742E8D-B850-43C7-828D-86A6E38876E2", 253, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Asian", "Male", "Neonatal", "66", "31465", "2.1" ]
+, [ 254, "977F4C8D-4641-46B5-A73F-9649C0E182CD", 254, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Asian", "Male", "PostNeonatal", "26", "31465", "0.8" ]
+, [ 255, "FAF45E29-47BB-42EE-89D8-A7618D137411", 255, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Asian", "Male", "Total", "92", "31465", "2.9" ]
+, [ 256, "759F5D05-091A-4837-AB16-930D41B057FB", 256, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Asian", "Female", "Neonatal", "45", "29189", "1.5" ]
+, [ 257, "232CBDC0-029B-4E6F-B03D-61B1FC25E7DE", 257, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Asian", "Female", "PostNeonatal", "25", "29189", "0.9" ]
+, [ 258, "864A2BB5-6045-4605-B22E-926551F0BE7F", 258, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Asian", "Female", "Total", "70", "29189", "2.4" ]
+, [ 259, "BA0CAC47-48CB-4B00-A5C6-C43B7A4977FC", 259, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Asian", "Total", "Neonatal", "111", "60654", "1.8" ]
+, [ 260, "2EACD680-1ADD-4B4D-BF34-24F672B48BCA", 260, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Asian", "Total", "PostNeonatal", "51", "60654", "0.8" ]
+, [ 261, "F71772F2-3992-465F-B481-1F7D17B40F42", 261, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Asian", "Total", "Total", "162", "60654", "2.7" ]
+, [ 262, "4167D0EC-310A-4FAD-B6D1-426BCB3531EB", 262, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Black", "Male", "Neonatal", "104", "14051", "7.4" ]
+, [ 263, "CB4AEC31-BE9E-46FB-A8FB-0F249039B38D", 263, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Black", "Male", "PostNeonatal", "52", "14051", "3.7" ]
+, [ 264, "DD243687-F4FC-4C0A-A8CE-F808635BB1F5", 264, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Black", "Male", "Total", "156", "14051", "11.1" ]
+, [ 265, "F9B56611-DF27-4384-B884-6FE4E7C61045", 265, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Black", "Female", "Neonatal", "66", "13653", "4.8" ]
+, [ 266, "88B38FA3-687E-4BA0-91FD-C3C154E8FA0B", 266, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Black", "Female", "PostNeonatal", "42", "13653", "3.1" ]
+, [ 267, "B529CE19-51F0-4EB3-97B4-52C75EF5338A", 267, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Black", "Female", "Total", "108", "13653", "7.9" ]
+, [ 268, "55A70E5E-D2A2-4CE5-8A52-297B10439639", 268, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Black", "Total", "Neonatal", "170", "27704", "6.1" ]
+, [ 269, "A2496622-C1D4-415E-9517-46E587FC7728", 269, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Black", "Total", "PostNeonatal", "94", "27704", "3.4" ]
+, [ 270, "744D3896-3375-4151-B0C6-873548969351", 270, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Black", "Total", "Total", "264", "27704", "9.5" ]
+, [ 271, "96E1E350-C400-428E-B4FE-C68DB85A983F", 271, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Hispanic", "Male", "Neonatal", "483", "131134", "3.7" ]
+, [ 272, "71D6340C-3540-4C52-9FDE-A7FE756A2CFF", 272, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Hispanic", "Male", "PostNeonatal", "211", "131134", "1.6" ]
+, [ 273, "4C053806-22E8-413D-B8ED-92E3FC7B1002", 273, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Hispanic", "Male", "Total", "694", "131134", "5.3" ]
+, [ 274, "F73D65C7-495C-4A5F-AA8E-DA99AEAED7D8", 274, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Hispanic", "Female", "Neonatal", "411", "126135", "3.3" ]
+, [ 275, "4E6BD737-34C3-4EC1-8ECF-79F5C625F656", 275, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Hispanic", "Female", "PostNeonatal", "159", "126135", "1.3" ]
+, [ 276, "DED0000A-F8E6-417D-94E3-A2F76C39BE11", 276, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Hispanic", "Female", "Total", "570", "126135", "4.5" ]
+, [ 277, "4CBBE6B4-261F-465A-9A5B-05787BA12817", 277, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Hispanic", "Total", "Neonatal", "894", "257269", "3.5" ]
+, [ 278, "FC12B801-2021-45B2-8A70-01349F9DFAFD", 278, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Hispanic", "Total", "PostNeonatal", "370", "257269", "1.4" ]
+, [ 279, "86456667-FEAC-436C-8414-17B8C194695F", 279, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Hispanic", "Total", "Total", "1264", "257269", "4.9" ]
+, [ 280, "34A8A8A2-7E65-4347-9CD7-F37279FB9785", 280, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Not Stated or Unknown", "Male", "Neonatal", "5", "4618", "1.1" ]
+, [ 281, "3FCE6DD0-2815-414C-8BFB-6D443E524911", 281, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Not Stated or Unknown", "Male", "PostNeonatal", "0", "4618", "0" ]
+, [ 282, "1C8C5A81-9A89-4926-B3EE-4AAB8D4CB22C", 282, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Not Stated or Unknown", "Male", "Total", "5", "4618", "1.1" ]
+, [ 283, "35BEDDA4-7C6F-4D26-BA84-25B1920E549A", 283, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Not Stated or Unknown", "Female", "Neonatal", "5", "4289", "1.2" ]
+, [ 284, "781A62C7-A555-499F-88BE-13DFCC9508D3", 284, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Not Stated or Unknown", "Female", "PostNeonatal", "1", "4289", "0.2" ]
+, [ 285, "1514D442-4589-4D79-80FB-F803223F24A5", 285, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Not Stated or Unknown", "Female", "Total", "6", "4289", "1.4" ]
+, [ 286, "12D4EB11-B57E-487F-8800-F1A70D18E515", 286, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Not Stated or Unknown", "Total", "Neonatal", "10", "8907", "1.1" ]
+, [ 287, "02A0EE83-5BA2-49DD-BB6B-F300FD555241", 287, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Not Stated or Unknown", "Total", "PostNeonatal", "1", "8907", "0.1" ]
+, [ 288, "A9FCC426-A4B9-45A4-BF41-9ABB59B13AC6", 288, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Not Stated or Unknown", "Total", "Total", "11", "8907", "1.2" ]
+, [ 289, "B460AB2E-2E13-46CC-B511-7CB6A25A4B06", 289, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Pacific Islander/Hawaiian", "Male", "Neonatal", "7", "1163", "6" ]
+, [ 290, "EAA7B12C-4CF6-49A5-8120-693A8321831E", 290, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "3", "1163", "2.6" ]
+, [ 291, "FFCC64FF-5F6F-48B1-AA1C-ED546D93364A", 291, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Pacific Islander/Hawaiian", "Male", "Total", "10", "1163", "8.6" ]
+, [ 292, "9A65F4E2-F84E-4A99-866C-0A710CE9E778", 292, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Pacific Islander/Hawaiian", "Female", "Neonatal", "5", "1072", "4.7" ]
+, [ 293, "77E5FF28-8BDC-478D-AD14-8944B8E73794", 293, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "1", "1072", "0.9" ]
+, [ 294, "3F82578D-126F-404C-BD5D-9ACFC091FB36", 294, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Pacific Islander/Hawaiian", "Female", "Total", "6", "1072", "5.6" ]
+, [ 295, "4A0942A0-F149-4418-B24A-74DF382517DC", 295, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Pacific Islander/Hawaiian", "Total", "Neonatal", "12", "2235", "5.4" ]
+, [ 296, "6C423032-2618-4727-887B-067B46A0A510", 296, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "4", "2235", "1.8" ]
+, [ 297, "457F75D4-82BB-4A45-8B5B-9B0A6A05563C", 297, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Pacific Islander/Hawaiian", "Total", "Total", "16", "2235", "7.2" ]
+, [ 298, "12A85490-9C6D-4825-BDA5-4699C487973D", 298, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Two or more races", "Male", "Neonatal", "37", "5279", "7" ]
+, [ 299, "909FBB0B-563C-40FF-8E90-E682DC3D09AA", 299, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Two or more races", "Male", "PostNeonatal", "22", "5279", "4.2" ]
+, [ 300, "F99A7910-EC8D-46A8-B0DD-5555FCB58FF4", 300, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Two or more races", "Male", "Total", "59", "5279", "11.2" ]
+, [ 301, "638204E8-3738-4FA3-B473-98E4B462ACB7", 301, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Two or more races", "Female", "Neonatal", "26", "5006", "5.2" ]
+, [ 302, "C2E92B57-F7E6-4D68-A81F-E175E9B2A1E9", 302, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Two or more races", "Female", "PostNeonatal", "21", "5006", "4.2" ]
+, [ 303, "B3427456-3AD6-4EBA-8800-497980BABEA8", 303, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Two or more races", "Female", "Total", "47", "5006", "9.4" ]
+, [ 304, "2C03C4EF-C257-4887-926D-33CAAE662F63", 304, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Two or more races", "Total", "Neonatal", "63", "10285", "6.1" ]
+, [ 305, "7785C8C7-700C-47AD-889C-BE63275D30E1", 305, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Two or more races", "Total", "PostNeonatal", "43", "10285", "4.2" ]
+, [ 306, "21153F3D-CB20-4DD9-8F1B-F7257DC1B851", 306, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Two or more races", "Total", "Total", "106", "10285", "10.3" ]
+, [ 307, "BAF4E242-5843-4370-B0EF-CAE35AFB814B", 307, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "White/Other", "Male", "Neonatal", "242", "72419", "3.3" ]
+, [ 308, "D32A9EA1-6031-45C1-93D7-A88B8B0A2250", 308, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "White/Other", "Male", "PostNeonatal", "89", "72419", "1.2" ]
+, [ 309, "89C0D5BC-578B-4769-842C-37C16BA59593", 309, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "White/Other", "Male", "Total", "331", "72419", "4.6" ]
+, [ 310, "57F48477-BE1F-4973-8B2D-360A483B45E8", 310, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "White/Other", "Female", "Neonatal", "172", "68596", "2.5" ]
+, [ 311, "7276F24D-7797-4ED9-8D99-5300C78B5192", 311, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "White/Other", "Female", "PostNeonatal", "78", "68596", "1.1" ]
+, [ 312, "B9F53851-DABB-4768-B03C-CC204DA53D06", 312, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "White/Other", "Female", "Total", "250", "68596", "3.6" ]
+, [ 313, "70CD7DC6-A5C4-4735-B87D-4AFBF384D8CF", 313, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "White/Other", "Total", "Neonatal", "414", "141015", "2.9" ]
+, [ 314, "88F36E04-67E1-4C28-9482-17285A694A19", 314, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "White/Other", "Total", "PostNeonatal", "167", "141015", "1.2" ]
+, [ 315, "FFCDBC45-6AF0-4C4A-BCF9-48D462844893", 315, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "White/Other", "Total", "Total", "581", "141015", "4.1" ]
+, [ 316, "1CBF1FC4-1D31-428F-B691-A37EEF54909E", 316, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Total", "Male", "Neonatal", "951", "261101", "3.6" ]
+, [ 317, "133C3A64-9271-4002-B48F-10F698E15B2B", 317, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Total", "Male", "PostNeonatal", "407", "261101", "1.6" ]
+, [ 318, "141B901F-71D8-4726-9F29-53135F8A7D3D", 318, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Total", "Male", "Total", "1358", "261101", "5.2" ]
+, [ 319, "49CE0A90-E9AB-4A0A-A49F-DA20200BAE7C", 319, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Total", "Female", "Neonatal", "734", "248878", "2.9" ]
+, [ 320, "F95FF5F3-B930-446B-AB0E-99F09A92274A", 320, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Total", "Female", "PostNeonatal", "327", "248878", "1.3" ]
+, [ 321, "7B9177E1-868F-49D3-8D9D-EC6D47A0ABEE", 321, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Total", "Female", "Total", "1061", "248878", "4.3" ]
+, [ 322, "0C5525FD-575E-420D-B408-47607D10F2A4", 322, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Total", "Total", "Neonatal", "1685", "509979", "3.3" ]
+, [ 323, "B9AF1EAD-6B12-4D34-BA5A-0328EC738964", 323, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Total", "Total", "PostNeonatal", "734", "509979", "1.4" ]
+, [ 324, "8A952077-054E-47AE-819A-1D663ECD5A52", 324, 1423781601, "889387", 1423781601, "889387", "{\n}", "2010", "Total", "Total", "Total", "2419", "509979", "4.7" ]
+, [ 325, "13EF55D1-98C3-45DC-A462-53514718933C", 325, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "American Indian", "Female", "Neonatal", "6", "963", "6.2" ]
+, [ 326, "85F4E925-2C91-4D73-BB74-6B5D149C26BC", 326, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "American Indian", "Female", "PostNeonatal", "1", "963", "1" ]
+, [ 327, "D3FA049B-B348-4E94-8A01-7F483D1CD46A", 327, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "American Indian", "Female", "Total", "7", "963", "7.3" ]
+, [ 328, "A4821E8A-5885-46F4-B8FB-AA21BA357A01", 328, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "American Indian", "Male", "Neonatal", "3", "1024", "2.9" ]
+, [ 329, "C60E280B-DB9D-4447-A7F5-A085C52CFA0D", 329, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "American Indian", "Male", "PostNeonatal", "1", "1024", "1" ]
+, [ 330, "35BB7D38-343B-49F9-8351-F1B775181562", 330, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "American Indian", "Male", "Total", "4", "1024", "3.9" ]
+, [ 331, "F00CDB82-BBDF-417E-9675-F58494B95D21", 331, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "American Indian", "Total", "Neonatal", "9", "1987", "4.5" ]
+, [ 332, "C9F5AC22-247E-43CF-AF32-D37E67DACDFC", 332, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "American Indian", "Total", "PostNeonatal", "2", "1987", "1" ]
+, [ 333, "E8F9BA79-4D97-495E-8B0B-72E6B7BEF1B7", 333, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "American Indian", "Total", "Total", "11", "1987", "5.5" ]
+, [ 334, "04B475C7-F2EC-4CE6-89C9-B7C310135FEA", 334, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Asian", "Female", "Neonatal", "56", "30306", "1.8" ]
+, [ 335, "400E1734-77C0-47C2-90C8-828D0084242F", 335, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Asian", "Female", "PostNeonatal", "39", "30306", "1.3" ]
+, [ 336, "1F30A81B-9042-4FC3-855C-266CDD2C3EC2", 336, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Asian", "Female", "Total", "95", "30306", "3.1" ]
+, [ 337, "61C1C2F3-694E-470D-A9A8-F6BA72ADAF5F", 337, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Asian", "Male", "Neonatal", "65", "32548", "2" ]
+, [ 338, "843E55E2-37A9-4293-9AD1-CE6186191964", 338, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Asian", "Male", "PostNeonatal", "37", "32548", "1.1" ]
+, [ 339, "519C9330-62F9-4330-8CFA-6BE7DC3DB712", 339, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Asian", "Male", "Total", "102", "32548", "3.1" ]
+, [ 340, "D769525A-986A-4DF7-A75C-E76C7A2B66A0", 340, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Asian", "Total", "Neonatal", "121", "62854", "1.9" ]
+, [ 341, "FE528388-26F9-464B-90F9-47D3A7041383", 341, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Asian", "Total", "PostNeonatal", "76", "62854", "1.2" ]
+, [ 342, "C71A1C26-CBA7-4990-8555-B52DE1FF846B", 342, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Asian", "Total", "Total", "197", "62854", "3.1" ]
+, [ 343, "BFE99BA6-4DA9-4218-80E8-65A6EFD5E2EC", 343, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Black", "Female", "Neonatal", "77", "14119", "5.5" ]
+, [ 344, "DCCAE28E-F198-4FA5-BDE1-B7EC90CBF131", 344, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Black", "Female", "PostNeonatal", "41", "14119", "2.9" ]
+, [ 345, "454E8B74-99AC-445F-AC06-30A78EB2A330", 345, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Black", "Female", "Total", "118", "14119", "8.4" ]
+, [ 346, "C74F2A42-8BFE-4717-A219-B8D705767D47", 346, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Black", "Male", "Neonatal", "115", "14492", "7.9" ]
+, [ 347, "B5F4F45C-529D-40CC-9D4E-3A45F3D3DCDE", 347, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Black", "Male", "PostNeonatal", "70", "14492", "4.8" ]
+, [ 348, "1A5405A2-F3F8-48B6-8F5A-36B2D8C65BE8", 348, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Black", "Male", "Total", "185", "14492", "12.8" ]
+, [ 349, "BC2A3AF1-27A5-4F9E-B9BF-2C0D690F406C", 349, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Black", "Total", "Neonatal", "192", "28611", "6.7" ]
+, [ 350, "01B6824E-8469-4198-8A35-02427ACCB496", 350, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Black", "Total", "PostNeonatal", "111", "28611", "3.9" ]
+, [ 351, "4EE98559-E1CF-42AF-832A-A376F9BBEAEF", 351, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Black", "Total", "Total", "303", "28611", "10.6" ]
+, [ 352, "7990DC9B-916E-4758-9383-D59553DEE9BA", 352, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Hispanic", "Female", "Neonatal", "420", "131845", "3.2" ]
+, [ 353, "2203E4D5-CD40-49A5-8ADA-A7CD8BB43634", 353, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Hispanic", "Female", "PostNeonatal", "189", "131845", "1.4" ]
+, [ 354, "4804C247-E083-4C84-9D08-0D6C2695BEC2", 354, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Hispanic", "Female", "Total", "609", "131845", "4.6" ]
+, [ 355, "9529A3B0-B42A-49CE-B1C2-F4A8D645C173", 355, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Hispanic", "Male", "Neonatal", "499", "138108", "3.6" ]
+, [ 356, "8CFAC7DF-ED3E-4E96-837A-1D7EB54FD79D", 356, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Hispanic", "Male", "PostNeonatal", "246", "138108", "1.8" ]
+, [ 357, "28D54399-559C-4E31-AC90-6B3AFD60592E", 357, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Hispanic", "Male", "Total", "745", "138108", "5.4" ]
+, [ 358, "31762F72-A581-4D74-9764-A6A92109BC18", 358, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Hispanic", "Total", "Neonatal", "919", "269953", "3.4" ]
+, [ 359, "C2FFB49C-4083-4E20-BBF6-B9EF834F14B4", 359, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Hispanic", "Total", "PostNeonatal", "435", "269953", "1.6" ]
+, [ 360, "692E74A8-0E1F-4F0B-9EFE-36F6A1FA4ADE", 360, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Hispanic", "Total", "Total", "1354", "269953", "5" ]
+, [ 361, "1C980798-A0A4-4599-9F08-3F10C3461211", 361, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Not Stated or Unknown", "Female", "Neonatal", "9", "4729", "1.9" ]
+, [ 362, "4609AE10-E9ED-4C4D-9799-18F1BF7CB060", 362, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Not Stated or Unknown", "Female", "PostNeonatal", "0", "4729", "0" ]
+, [ 363, "189C8388-9DDA-4B6F-9E6A-96392ABA12E5", 363, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Not Stated or Unknown", "Female", "Total", "9", "4729", "1.9" ]
+, [ 364, "5FA99D81-1517-49EB-9E1B-9A9DAF26B77C", 364, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Not Stated or Unknown", "Male", "Neonatal", "5", "4892", "1" ]
+, [ 365, "4C7325A2-8BC0-410A-8001-273D6974727B", 365, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Not Stated or Unknown", "Male", "PostNeonatal", "0", "4892", "0" ]
+, [ 366, "0B4E9B9D-95C7-4702-985F-D8F6140950A9", 366, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Not Stated or Unknown", "Male", "Total", "5", "4892", "1" ]
+, [ 367, "923E78B3-2242-45F4-A781-9EF886802AC7", 367, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Not Stated or Unknown", "Total", "Neonatal", "14", "9621", "1.5" ]
+, [ 368, "CD887A11-2035-489A-8018-92697EA95292", 368, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Not Stated or Unknown", "Total", "PostNeonatal", "0", "9621", "0" ]
+, [ 369, "2CBECEB1-6DAF-4F61-8EE8-26FC317708C3", 369, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Not Stated or Unknown", "Total", "Total", "14", "9621", "1.5" ]
+, [ 370, "E0FA1A4D-878C-4445-AC46-D9670DB46970", 370, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Pacific Islander/Hawaiian", "Female", "Neonatal", "7", "1161", "6" ]
+, [ 371, "F75384D2-CD06-40B1-9E1C-412D6FD9C2F9", 371, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "1", "1161", "0.9" ]
+, [ 372, "8FEAC01D-028F-46B2-89F7-A3FBA6173CF0", 372, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Pacific Islander/Hawaiian", "Female", "Total", "8", "1161", "6.9" ]
+, [ 373, "4D02B9B1-7A87-4483-8039-497CC144253C", 373, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Pacific Islander/Hawaiian", "Male", "Neonatal", "5", "1236", "4" ]
+, [ 374, "C466635B-A0BC-47B4-A35F-8219CF670F9E", 374, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "5", "1236", "4" ]
+, [ 375, "82AA95CF-5B79-405A-8443-BC723CAA8AA6", 375, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Pacific Islander/Hawaiian", "Male", "Total", "10", "1236", "8.1" ]
+, [ 376, "FF4CD1D9-2B4D-4BAB-8889-23D2E8893932", 376, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Pacific Islander/Hawaiian", "Total", "Neonatal", "12", "2397", "5" ]
+, [ 377, "2C85074D-3386-4C50-8911-863AB3EF86D6", 377, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "6", "2397", "2.5" ]
+, [ 378, "1CEB9C8E-37C9-4870-90AD-6E3F6B239D8C", 378, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Pacific Islander/Hawaiian", "Total", "Total", "18", "2397", "7.5" ]
+, [ 379, "1725CB98-964C-4CE8-AB04-13BF53F32FFB", 379, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Two or more races", "Female", "Neonatal", "37", "4831", "7.7" ]
+, [ 380, "EA9A433B-85CB-4A77-A290-35E597291187", 380, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Two or more races", "Female", "PostNeonatal", "17", "4831", "3.5" ]
+, [ 381, "AA115CDA-7755-4123-A6E8-EDEB1AD8DE33", 381, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Two or more races", "Female", "Total", "54", "4831", "11.2" ]
+, [ 382, "A197EFD3-FB8D-4BD9-ABFB-C25DD4CF2CA5", 382, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Two or more races", "Male", "Neonatal", "44", "4997", "8.8" ]
+, [ 383, "C7BC5041-882F-4521-B953-3F60D13E8AAC", 383, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Two or more races", "Male", "PostNeonatal", "20", "4997", "4" ]
+, [ 384, "5DE80917-CD48-4680-88F1-A46076A2F450", 384, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Two or more races", "Male", "Total", "64", "4997", "12.8" ]
+, [ 385, "2F2DEB47-AE83-4115-A85E-441434FA7BF8", 385, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Two or more races", "Total", "Neonatal", "81", "9828", "8.2" ]
+, [ 386, "9E8C106B-F791-4C89-AE4B-8C244F3EBA18", 386, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Two or more races", "Total", "PostNeonatal", "37", "9828", "3.8" ]
+, [ 387, "F6B77DF9-8809-4273-947D-8579878C0B79", 387, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Two or more races", "Total", "Total", "118", "9828", "12" ]
+, [ 388, "8E19872C-1321-48EB-8B63-056AA1BCA881", 388, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "White/Other", "Female", "Neonatal", "154", "68993", "2.2" ]
+, [ 389, "E870BA81-16AB-4ECA-A115-296C6802D9FE", 389, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "White/Other", "Female", "PostNeonatal", "68", "68993", "1" ]
+, [ 390, "5507E407-9AD4-4385-8264-68118FCD3F55", 390, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "White/Other", "Female", "Total", "222", "68993", "3.2" ]
+, [ 391, "C83AAEBB-84AA-4CB3-B911-B93D2115A982", 391, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "White/Other", "Male", "Neonatal", "253", "72530", "3.5" ]
+, [ 392, "83296BE3-14AC-4EDE-A2C9-E5AF5EA2A2D9", 392, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "White/Other", "Male", "PostNeonatal", "103", "72530", "1.4" ]
+, [ 393, "9D02A103-4664-4104-B76A-48A16BB9E9A3", 393, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "White/Other", "Male", "Total", "356", "72530", "4.9" ]
+, [ 394, "B6A318AA-B5F2-4F1B-B846-D3651E76B10D", 394, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "White/Other", "Total", "Neonatal", "407", "141523", "2.9" ]
+, [ 395, "76EA4D5B-469C-4C2C-B2BB-1C58D9D6EA8A", 395, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "White/Other", "Total", "PostNeonatal", "171", "141523", "1.2" ]
+, [ 396, "0D40B247-3B99-4CC6-ADE9-8807F546DF91", 396, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "White/Other", "Total", "Total", "578", "141523", "4.1" ]
+, [ 397, "FC6DBC1B-A176-4FEA-ADFA-DCCE0F7C6066", 397, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Total", "Female", "Neonatal", "766", "256947", "3" ]
+, [ 398, "862530AC-B39D-400E-B0AA-5F05E65E6229", 398, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Total", "Female", "PostNeonatal", "356", "256947", "1.4" ]
+, [ 399, "7615CB13-B510-43BC-ABBB-40C5398632F8", 399, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Total", "Female", "Total", "1122", "256947", "4.4" ]
+, [ 400, "E76B803D-4CD0-4EFB-90B0-6DC466ADF2C1", 400, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Total", "Male", "Neonatal", "989", "269827", "3.7" ]
+, [ 401, "DCD7548C-530E-4784-96B9-D31D1C759C66", 401, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Total", "Male", "PostNeonatal", "482", "269827", "1.8" ]
+, [ 402, "B28D49C1-4346-4638-A4F7-8BFC74E8CE88", 402, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Total", "Male", "Total", "1471", "269827", "5.5" ]
+, [ 403, "84BD305D-AE45-4284-965D-46B65AA72658", 403, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Total", "Total", "Neonatal", "1755", "526774", "3.3" ]
+, [ 404, "F64E3CCC-3DE6-44BF-B653-740E775742E9", 404, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Total", "Total", "PostNeonatal", "838", "526774", "1.6" ]
+, [ 405, "37EE1CBC-BDA8-4FBA-A366-BC7AD9EB9271", 405, 1423781601, "889387", 1423781601, "889387", "{\n}", "2009", "Total", "Total", "Total", "2593", "526774", "4.9" ]
+, [ 406, "CF525C2E-AC64-4861-8ABF-27956EEE860E", 406, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "American Indian", "Male", "Neonatal", "2", "1004", "2" ]
+, [ 407, "B03ED07D-5FB2-433A-9F89-50AD412F2E0B", 407, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "American Indian", "Male", "PostNeonatal", "3", "1004", "3" ]
+, [ 408, "6ADED8A8-9D97-4DDD-A8C6-F60FB10E1C89", 408, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "American Indian", "Male", "Total", "5", "1004", "5" ]
+, [ 409, "6A22C09C-AE3F-4FE1-8A87-05360A9C595C", 409, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "American Indian", "Female", "Neonatal", "2", "1028", "1.9" ]
+, [ 410, "F8490131-5E22-49D3-A72D-5E1F7D726D53", 410, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "American Indian", "Female", "PostNeonatal", "4", "1028", "3.9" ]
+, [ 411, "DD5D3709-A311-4ACE-993D-69EDE42E7690", 411, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "American Indian", "Female", "Total", "6", "1028", "5.8" ]
+, [ 412, "6CC6BB3A-0136-452C-890A-D37964817CE7", 412, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "American Indian", "Total", "Neonatal", "4", "2032", "2" ]
+, [ 413, "574E8B28-5893-4F91-9AC4-D36A0C3D7DA2", 413, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "American Indian", "Total", "PostNeonatal", "7", "2032", "3.4" ]
+, [ 414, "38BBDA04-BFB8-4F49-9723-AEB50EA1D27A", 414, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "American Indian", "Total", "Total", "11", "2032", "5.4" ]
+, [ 415, "A5AE68EA-D5A6-4A7D-8320-88399442AC52", 415, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Asian", "Male", "Neonatal", "78", "33496", "2.3" ]
+, [ 416, "CB1EBB64-8399-478C-A8BE-918745900523", 416, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Asian", "Male", "PostNeonatal", "32", "33496", "1" ]
+, [ 417, "75ED2881-DE39-4F49-89FE-E2E8761A67A8", 417, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Asian", "Male", "Total", "110", "33496", "3.3" ]
+, [ 418, "8A8AA2E9-2A1B-4519-9966-D056D5C25528", 418, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Asian", "Female", "Neonatal", "67", "31329", "2.1" ]
+, [ 419, "4C87D26B-8A6F-4F4D-9584-49D8EAD1AB7A", 419, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Asian", "Female", "PostNeonatal", "26", "31329", "0.8" ]
+, [ 420, "94E9715C-4487-4BF8-A4F7-E95F995DAF61", 420, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Asian", "Female", "Total", "93", "31329", "3" ]
+, [ 421, "C9E9FCC9-A292-46CF-955C-64023C26EC04", 421, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Asian", "Total", "Neonatal", "145", "64825", "2.2" ]
+, [ 422, "068E06A8-59F7-4687-AB73-12041675D2A1", 422, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Asian", "Total", "PostNeonatal", "58", "64825", "0.9" ]
+, [ 423, "D025D86E-7000-4BE2-8746-BF7003D5FDD2", 423, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Asian", "Total", "Total", "203", "64825", "3.1" ]
+, [ 424, "831F5F28-DCE4-4394-A80B-C1C10190CF19", 424, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Black", "Male", "Neonatal", "134", "14898", "9" ]
+, [ 425, "D553E15E-3421-40FD-AC78-9D6643E4C858", 425, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Black", "Male", "PostNeonatal", "68", "14898", "4.6" ]
+, [ 426, "A1505DD1-39FA-4AF2-AD85-60C4164B9BBA", 426, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Black", "Male", "Total", "202", "14898", "13.6" ]
+, [ 427, "58D6EA99-51EF-4549-BB2E-20218B54A9BC", 427, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Black", "Female", "Neonatal", "101", "14530", "7" ]
+, [ 428, "51CF63A3-EA25-4A4D-98DC-5DD873465666", 428, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Black", "Female", "PostNeonatal", "53", "14530", "3.6" ]
+, [ 429, "3AD01108-E1BC-443D-836E-4E6928D7FBD8", 429, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Black", "Female", "Total", "154", "14530", "10.6" ]
+, [ 430, "C3A0BB9C-83A8-4E38-ACDB-616E8FCD0DF6", 430, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Black", "Total", "Neonatal", "235", "29428", "8" ]
+, [ 431, "FC7B8664-AB04-44D3-B0BC-05390C7C4F54", 431, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Black", "Total", "PostNeonatal", "121", "29428", "4.1" ]
+, [ 432, "0B46ED2A-06ED-48CF-BE55-AD352068F63A", 432, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Black", "Total", "Total", "356", "29428", "12.1" ]
+, [ 433, "F11B1F34-6273-4770-B6EA-C3603F777944", 433, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Hispanic", "Male", "Neonatal", "565", "146950", "3.8" ]
+, [ 434, "536A3E42-DA17-4777-8853-5E8760B74797", 434, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Hispanic", "Male", "PostNeonatal", "253", "146950", "1.7" ]
+, [ 435, "ABE337BE-050B-4D9A-89BD-696238DF378E", 435, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Hispanic", "Male", "Total", "818", "146950", "5.6" ]
+, [ 436, "75CB2A67-6E43-483B-982D-9AAD9AEDC22D", 436, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Hispanic", "Female", "Neonatal", "451", "140373", "3.2" ]
+, [ 437, "70F3AEE5-A244-4FB4-A735-B832F802C41C", 437, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Hispanic", "Female", "PostNeonatal", "235", "140373", "1.7" ]
+, [ 438, "DA8A5A48-1A87-44D3-8FDC-7A2356B4FC46", 438, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Hispanic", "Female", "Total", "686", "140373", "4.9" ]
+, [ 439, "259D26F4-3D44-4AD3-816C-1277D483664B", 439, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Hispanic", "Total", "Neonatal", "1016", "287323", "3.5" ]
+, [ 440, "05EE1E2C-4E0F-435E-8710-685598B883D8", 440, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Hispanic", "Total", "PostNeonatal", "488", "287323", "1.7" ]
+, [ 441, "6EFC6D85-7343-48BE-B5BC-9E1403079E70", 441, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Hispanic", "Total", "Total", "1504", "287323", "5.2" ]
+, [ 442, "2542E31A-7AD4-4FEE-A315-ABA3721F4D96", 442, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Not Stated or Unknown", "Male", "Neonatal", "3", "4548", "0.7" ]
+, [ 443, "971498BC-3E0A-4994-B441-8B065A358B0B", 443, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Not Stated or Unknown", "Male", "PostNeonatal", "0", "4548", "0" ]
+, [ 444, "2FEDBD3D-7D5E-4455-95A5-8170868C95A2", 444, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Not Stated or Unknown", "Male", "Total", "3", "4548", "0.7" ]
+, [ 445, "D9282ACC-729D-4EFB-8BC2-6BFEDE92BD50", 445, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Not Stated or Unknown", "Female", "Neonatal", "1", "4414", "0.2" ]
+, [ 446, "4331E791-C2B9-47B7-9EB0-3C84F0FE58D3", 446, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Not Stated or Unknown", "Female", "PostNeonatal", "0", "4414", "0" ]
+, [ 447, "A59F603D-2FE6-40B6-ADE5-AFB439F639E6", 447, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Not Stated or Unknown", "Female", "Total", "1", "4414", "0.2" ]
+, [ 448, "8B834141-03F1-4718-9F9C-2D035A593F17", 448, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Not Stated or Unknown", "Total", "Neonatal", "4", "8962", "0.4" ]
+, [ 449, "ADDD1AB5-F404-4E5E-8E7F-B453A17C8049", 449, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Not Stated or Unknown", "Total", "PostNeonatal", "0", "8962", "0" ]
+, [ 450, "4AA983F6-E6A6-4F87-BD02-1C6B3E9FD8EB", 450, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Not Stated or Unknown", "Total", "Total", "4", "8962", "0.4" ]
+, [ 451, "64A67D1F-1146-411D-8063-A33F2B9F9FA6", 451, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Pacific Islander/Hawaiian", "Male", "Neonatal", "6", "1274", "4.7" ]
+, [ 452, "99E7B7CA-D34C-4B92-A51D-1224C539A63E", 452, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "5", "1274", "3.9" ]
+, [ 453, "F03F5DEF-83CA-47F8-825B-2FC7A1F72A36", 453, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Pacific Islander/Hawaiian", "Male", "Total", "11", "1274", "8.6" ]
+, [ 454, "C28736ED-74B1-494D-8332-E3ECA856A055", 454, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Pacific Islander/Hawaiian", "Female", "Neonatal", "2", "1207", "1.7" ]
+, [ 455, "817324F5-AFD0-4E06-9E05-D0F22A303384", 455, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "2", "1207", "1.7" ]
+, [ 456, "BA7C23A6-F05E-47F3-A83D-10EA877076DD", 456, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Pacific Islander/Hawaiian", "Female", "Total", "4", "1207", "3.3" ]
+, [ 457, "B81E8CD0-837E-4202-81F2-E40C91D366F1", 457, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Pacific Islander/Hawaiian", "Total", "Neonatal", "8", "2481", "3.2" ]
+, [ 458, "D019D852-5F5B-4088-ADC7-C1BECA4878D3", 458, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "7", "2481", "2.8" ]
+, [ 459, "8BB0B6E1-624D-4BE2-9DFD-CA455E2607DA", 459, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Pacific Islander/Hawaiian", "Total", "Total", "15", "2481", "6" ]
+, [ 460, "2CC8BD78-648E-4335-A377-C5EC87746880", 460, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Two or more races", "Male", "Neonatal", "30", "5084", "5.9" ]
+, [ 461, "4A1DD90C-30E3-4096-8AF0-E05E5DD4E7DD", 461, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Two or more races", "Male", "PostNeonatal", "27", "5084", "5.3" ]
+, [ 462, "23D4CF99-10EC-42D0-B3A5-970B794BA365", 462, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Two or more races", "Male", "Total", "57", "5084", "11.2" ]
+, [ 463, "AC2625C1-0A7A-4E1E-AFF7-82462DD18D3B", 463, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Two or more races", "Female", "Neonatal", "37", "4791", "7.7" ]
+, [ 464, "4C4EFB83-735C-451C-9158-28837060A8BF", 464, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Two or more races", "Female", "PostNeonatal", "10", "4791", "2.1" ]
+, [ 465, "D262BDF8-D354-40BF-8641-D18050017885", 465, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Two or more races", "Female", "Total", "47", "4791", "9.8" ]
+, [ 466, "27D79B3D-E741-416A-BB32-3675FEC9F8A1", 466, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Two or more races", "Total", "Neonatal", "67", "9875", "6.8" ]
+, [ 467, "3E4BB0D2-E405-48FE-B958-E3B089D36666", 467, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Two or more races", "Total", "PostNeonatal", "37", "9875", "3.7" ]
+, [ 468, "0F910FEC-9FC6-45D0-AE84-6E17026CC16E", 468, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Two or more races", "Total", "Total", "104", "9875", "10.5" ]
+, [ 469, "39B1822A-6F37-4DA5-AB56-F9227EA9064B", 469, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "White/Other", "Male", "Neonatal", "231", "75378", "3.1" ]
+, [ 470, "CA24F384-208A-4635-93AA-9E420F7B6B39", 470, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "White/Other", "Male", "PostNeonatal", "114", "75378", "1.5" ]
+, [ 471, "685E0449-E0E1-4737-BD4B-CC2F2B29232E", 471, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "White/Other", "Male", "Total", "345", "75378", "4.6" ]
+, [ 472, "CD35CADB-90E8-4A4C-BB92-48DDB717E33C", 472, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "White/Other", "Female", "Neonatal", "192", "71263", "2.7" ]
+, [ 473, "0856A09F-42AE-491F-BD85-04244C7292D5", 473, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "White/Other", "Female", "PostNeonatal", "72", "71263", "1" ]
+, [ 474, "328A30BF-E7C4-416C-AEAE-C50FC2245914", 474, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "White/Other", "Female", "Total", "264", "71263", "3.7" ]
+, [ 475, "A3DEAE59-636D-4B47-95EE-E582B8C66F52", 475, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "White/Other", "Total", "Neonatal", "423", "146641", "2.9" ]
+, [ 476, "79CC2F14-CAE7-4DB2-AFC8-FB48061E48DD", 476, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "White/Other", "Total", "PostNeonatal", "186", "146641", "1.3" ]
+, [ 477, "210E7625-52F5-473A-AD39-908CE38CE547", 477, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "White/Other", "Total", "Total", "609", "146641", "4.2" ]
+, [ 478, "3F40A87A-9C08-47DC-A478-DDCF6BF66DD2", 478, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Total", "Male", "Neonatal", "1049", "282632", "3.7" ]
+, [ 479, "BBBB6B89-309A-4758-A767-712A114CDF51", 479, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Total", "Male", "PostNeonatal", "502", "282632", "1.8" ]
+, [ 480, "5FE991A9-E053-4052-BBF7-6B3914D62576", 480, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Total", "Male", "Total", "1551", "282632", "5.5" ]
+, [ 481, "E05DB6C4-F16A-464E-A17B-6F00C6DB74DD", 481, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Total", "Female", "Neonatal", "853", "268935", "3.2" ]
+, [ 482, "2024CADA-1829-4BDA-ACDC-DB8026611188", 482, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Total", "Female", "PostNeonatal", "402", "268935", "1.5" ]
+, [ 483, "916D97BC-A5C7-4F84-A3C7-59496BBD724B", 483, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Total", "Female", "Total", "1255", "268935", "4.7" ]
+, [ 484, "E555C6D3-0401-4E01-9428-8A87FEA9A69A", 484, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Total", "Total", "Neonatal", "1902", "551567", "3.4" ]
+, [ 485, "D34D826B-37AB-4A5B-AF1A-95D68015B48F", 485, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Total", "Total", "PostNeonatal", "904", "551567", "1.6" ]
+, [ 486, "7240B00A-3324-4730-ACFE-2B78F6C22C5A", 486, 1423781601, "889387", 1423781601, "889387", "{\n}", "2008", "Total", "Total", "Total", "2806", "551567", "5.1" ]
+, [ 487, "2320B691-F7F1-4454-A3B7-664D113F58E8", 487, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "American Indian", "Male", "Neonatal", "0", "1041", "0" ]
+, [ 488, "B000318C-768B-4F98-BBB9-AABD20709072", 488, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "American Indian", "Male", "PostNeonatal", "2", "1041", "1.9" ]
+, [ 489, "960F841F-90D3-4AAB-A1C1-E73C35F168A9", 489, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "American Indian", "Male", "Total", "2", "1041", "1.9" ]
+, [ 490, "C50C4135-4BD0-4A02-B41A-39D2705A2B25", 490, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "American Indian", "Female", "Neonatal", "3", "971", "3.1" ]
+, [ 491, "3E58BD41-6575-4EE8-B173-3EE096A866B1", 491, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "American Indian", "Female", "PostNeonatal", "3", "971", "3.1" ]
+, [ 492, "3F236C2A-3399-4F0F-9D8F-86B04144110C", 492, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "American Indian", "Female", "Total", "6", "971", "6.2" ]
+, [ 493, "5419B19A-7F9E-4D25-BEF0-CC705BBD5271", 493, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "American Indian", "Total", "Neonatal", "3", "2012", "1.5" ]
+, [ 494, "9682C4D4-F41D-442E-A685-EEB414B0FF57", 494, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "American Indian", "Total", "PostNeonatal", "5", "2012", "2.5" ]
+, [ 495, "544874FD-DC26-478F-9E2F-9E364C47161B", 495, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "American Indian", "Total", "Total", "8", "2012", "4" ]
+, [ 496, "260EB91F-4C68-4EAE-AE79-BCCFE0B84BC3", 496, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Asian", "Male", "Neonatal", "104", "34424", "3" ]
+, [ 497, "8865FE40-6BD4-4C09-9CCF-8A29A7EE3307", 497, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Asian", "Male", "PostNeonatal", "32", "34424", "0.9" ]
+, [ 498, "597077E9-0CD7-4BCA-B1F3-625784E9D9FD", 498, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Asian", "Male", "Total", "136", "34424", "4" ]
+, [ 499, "2CAFD501-2A97-46D9-B073-1EB799F896C4", 499, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Asian", "Female", "Neonatal", "64", "31810", "2" ]
+, [ 500, "7F65413B-15EA-4F3D-BDD8-34E2653E2B2E", 500, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Asian", "Female", "PostNeonatal", "22", "31810", "0.7" ]
+, [ 501, "4B6BA7CE-1BA0-4ADC-A1A6-ABC9882B3A40", 501, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Asian", "Female", "Total", "86", "31810", "2.7" ]
+, [ 502, "0ADEC83E-0E2E-4224-9533-567816CF7665", 502, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Asian", "Total", "Neonatal", "168", "66234", "2.5" ]
+, [ 503, "63F336F3-2B07-4C96-86A1-3CB499E6D209", 503, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Asian", "Total", "PostNeonatal", "54", "66234", "0.8" ]
+, [ 504, "F300F1F6-FA50-4816-B1D5-AB6021141A0E", 504, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Asian", "Total", "Total", "222", "66234", "3.4" ]
+, [ 505, "F414C20C-D2B1-4679-95EE-E7B8AA0F14D9", 505, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Black", "Male", "Neonatal", "121", "15015", "8.1" ]
+, [ 506, "58A94A91-5749-47EC-9CBE-0A314A41C77F", 506, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Black", "Male", "PostNeonatal", "71", "15015", "4.7" ]
+, [ 507, "A4ED7A0A-A423-4536-BB63-7B447431C818", 507, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Black", "Male", "Total", "192", "15015", "12.8" ]
+, [ 508, "4DE04F0D-2689-4EF0-8070-F4057407F569", 508, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Black", "Female", "Neonatal", "94", "14464", "6.5" ]
+, [ 509, "5D4EA238-D8D8-4DC7-A31F-FA656D3881E5", 509, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Black", "Female", "PostNeonatal", "54", "14464", "3.7" ]
+, [ 510, "C808F458-9598-4F5D-9509-B4397DAAB87E", 510, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Black", "Female", "Total", "148", "14464", "10.2" ]
+, [ 511, "C93588E0-7E62-48D0-867C-FB476A00331A", 511, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Black", "Total", "Neonatal", "215", "29479", "7.3" ]
+, [ 512, "000F054F-BDA9-4160-9C60-1E6023704BED", 512, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Black", "Total", "PostNeonatal", "125", "29479", "4.2" ]
+, [ 513, "494D3821-27D9-428A-9064-5B7FE67ABFAF", 513, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Black", "Total", "Total", "340", "29479", "11.5" ]
+, [ 514, "19D75B89-035B-45A0-91D3-C6090428F1C2", 514, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Hispanic", "Male", "Neonatal", "574", "151307", "3.8" ]
+, [ 515, "D235770B-FE47-4EA4-B8A3-CA0DACA50BCC", 515, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Hispanic", "Male", "PostNeonatal", "261", "151307", "1.7" ]
+, [ 516, "4F3DE72E-4443-46E1-97E0-3E3A67A61476", 516, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Hispanic", "Male", "Total", "835", "151307", "5.5" ]
+, [ 517, "DE7DC750-7797-4BBF-AD26-99EBC1BC7E92", 517, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Hispanic", "Female", "Neonatal", "479", "145610", "3.3" ]
+, [ 518, "DC27B7A7-AC58-4560-AB85-C409759BACA3", 518, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Hispanic", "Female", "PostNeonatal", "212", "145610", "1.5" ]
+, [ 519, "E556BC4A-F6F5-4BC1-86EE-FD1E02E06803", 519, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Hispanic", "Female", "Total", "691", "145610", "4.7" ]
+, [ 520, "EE66A5D2-5567-400D-AAC7-DADE06D81003", 520, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Hispanic", "Total", "Neonatal", "1053", "296917", "3.5" ]
+, [ 521, "BBD0124F-81EF-43C3-B420-30760C59252F", 521, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Hispanic", "Total", "PostNeonatal", "473", "296917", "1.6" ]
+, [ 522, "AFF98C2F-50ED-4EE5-B2F5-86F1DCEE469D", 522, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Hispanic", "Total", "Total", "1526", "296917", "5.1" ]
+, [ 523, "82E9A87B-DCEE-415C-A5C2-85E50873E3C2", 523, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Not Stated or Unknown", "Male", "Neonatal", "2", "4244", "0.5" ]
+, [ 524, "51018DB2-F86D-4389-B5F0-53BDB90AAB18", 524, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Not Stated or Unknown", "Male", "PostNeonatal", "1", "4244", "0.2" ]
+, [ 525, "05267CDD-B84A-4B8F-ABC4-C01403F1E122", 525, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Not Stated or Unknown", "Male", "Total", "3", "4244", "0.7" ]
+, [ 526, "D4611314-81A3-4535-839E-3122AB4E1986", 526, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Not Stated or Unknown", "Female", "Neonatal", "0", "3949", "0" ]
+, [ 527, "D040CD78-3359-4398-8777-CD9D6076A7C7", 527, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Not Stated or Unknown", "Female", "PostNeonatal", "0", "3949", "0" ]
+, [ 528, "46EB9D64-155E-4DE6-B4CB-2218408FF627", 528, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Not Stated or Unknown", "Female", "Total", "0", "3949", "0" ]
+, [ 529, "95357079-30F7-44CA-9328-3FF69B0AC4D4", 529, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Not Stated or Unknown", "Total", "Neonatal", "2", "8193", "0.2" ]
+, [ 530, "C4CC1C6C-36DC-4FD4-9E60-0DC40B28B3FF", 530, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Not Stated or Unknown", "Total", "PostNeonatal", "1", "8193", "0.1" ]
+, [ 531, "41C8C3DD-1913-4BF5-8DF5-6CC4D39CC25C", 531, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Not Stated or Unknown", "Total", "Total", "3", "8193", "0.4" ]
+, [ 532, "5010644A-DE25-4BB7-9BEE-CAAB14FB1FE1", 532, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Pacific Islander/Hawaiian", "Male", "Neonatal", "4", "1328", "3" ]
+, [ 533, "DACEF5D9-8A75-4D8D-A80B-826D920FDE43", 533, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "6", "1328", "4.5" ]
+, [ 534, "4E68FC5B-3EBC-4BA3-82AB-F59616E0DE2C", 534, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Pacific Islander/Hawaiian", "Male", "Total", "10", "1328", "7.5" ]
+, [ 535, "8AB0C45E-43C7-4C54-8B04-125E1F798EB4", 535, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Pacific Islander/Hawaiian", "Female", "Neonatal", "6", "1280", "4.7" ]
+, [ 536, "F93F1F7B-0C46-4E20-8927-563B914522D0", 536, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "0", "1280", "0" ]
+, [ 537, "464DA6A2-DCBB-4048-9A51-4F3B4DAF1856", 537, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Pacific Islander/Hawaiian", "Female", "Total", "6", "1280", "4.7" ]
+, [ 538, "92FF8A6C-C153-4FC5-B1EC-88EA48D36B7D", 538, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Pacific Islander/Hawaiian", "Total", "Neonatal", "10", "2608", "3.8" ]
+, [ 539, "BAEDAE00-051A-4A1D-986C-2120F5E7569A", 539, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "6", "2608", "2.3" ]
+, [ 540, "4890BC13-C47E-4E28-8609-E336C9BD2B8B", 540, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Pacific Islander/Hawaiian", "Total", "Total", "16", "2608", "6.1" ]
+, [ 541, "429AF770-F6A1-4B85-8B76-A9A307AF4022", 541, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Two or more races", "Male", "Neonatal", "53", "4794", "11.1" ]
+, [ 542, "A63599B9-B71E-407E-B875-F90046424B9E", 542, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Two or more races", "Male", "PostNeonatal", "25", "4794", "5.2" ]
+, [ 543, "3E234F3D-C191-433A-8B2C-5CFE6A76E9B3", 543, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Two or more races", "Male", "Total", "78", "4794", "16.3" ]
+, [ 544, "BFD71761-4506-4969-89A8-5770DD83AA74", 544, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Two or more races", "Female", "Neonatal", "44", "4662", "9.4" ]
+, [ 545, "D13FB581-39F3-4163-AD1B-DF80B103F6E1", 545, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Two or more races", "Female", "PostNeonatal", "13", "4662", "2.8" ]
+, [ 546, "FDFEFF84-8939-447B-A696-AA5442433D95", 546, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Two or more races", "Female", "Total", "57", "4662", "12.2" ]
+, [ 547, "EB2EBD10-C7A0-4311-B72E-D6E4FED03E8D", 547, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Two or more races", "Total", "Neonatal", "97", "9456", "10.3" ]
+, [ 548, "B4E5DDD7-08A0-4130-82FC-C3229A991E57", 548, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Two or more races", "Total", "PostNeonatal", "38", "9456", "4" ]
+, [ 549, "159C7830-FAA2-434E-815D-29616801BB58", 549, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Two or more races", "Total", "Total", "135", "9456", "14.3" ]
+, [ 550, "2D5910C5-48E1-4D3B-9052-9A506A8264F4", 550, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "White/Other", "Male", "Neonatal", "247", "77705", "3.2" ]
+, [ 551, "115E0769-3685-4C68-8902-576E3E3FC4EC", 551, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "White/Other", "Male", "PostNeonatal", "132", "77705", "1.7" ]
+, [ 552, "F47B93EA-A42B-4A39-8479-3375E8AE783D", 552, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "White/Other", "Male", "Total", "379", "77705", "4.9" ]
+, [ 553, "9F04C771-D5D0-435A-91CA-5FAF462A36E4", 553, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "White/Other", "Female", "Neonatal", "212", "73533", "2.9" ]
+, [ 554, "41861C42-FE0B-4A99-B967-8E0C20749AF9", 554, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "White/Other", "Female", "PostNeonatal", "100", "73533", "1.4" ]
+, [ 555, "DBC6E55F-4824-41ED-B9C2-C9C0F6FAA9C1", 555, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "White/Other", "Female", "Total", "312", "73533", "4.2" ]
+, [ 556, "609BDC0D-2CD6-4165-900D-6347A4351F20", 556, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "White/Other", "Total", "Neonatal", "459", "151238", "3" ]
+, [ 557, "AB4D88CC-B136-4C75-BAE9-B0685708A633", 557, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "White/Other", "Total", "PostNeonatal", "232", "151238", "1.5" ]
+, [ 558, "AE5116F6-14B9-481B-AEC5-DC91E278ED3D", 558, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "White/Other", "Total", "Total", "691", "151238", "4.6" ]
+, [ 559, "6D62B688-7204-487E-8D70-AACF5617B499", 559, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Total", "Male", "Neonatal", "1105", "289858", "3.8" ]
+, [ 560, "3956F50F-DD83-47D2-8D65-298B69360367", 560, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Total", "Male", "PostNeonatal", "530", "289858", "1.8" ]
+, [ 561, "4EB8F4C2-CA15-4F2F-9356-8032826568B7", 561, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Total", "Male", "Total", "1635", "289858", "5.6" ]
+, [ 562, "DAC965E2-B310-487F-9597-7F9370DA77BE", 562, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Total", "Female", "Neonatal", "902", "276279", "3.3" ]
+, [ 563, "51B5A5EF-1ECA-476E-A1F9-D0B17D89B3E0", 563, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Total", "Female", "PostNeonatal", "404", "276279", "1.5" ]
+, [ 564, "D0D36239-943E-4274-A7B2-58557F5FC512", 564, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Total", "Female", "Total", "1306", "276279", "4.7" ]
+, [ 565, "0FBC07DC-B8A2-43C1-B923-D60CDC7A889B", 565, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Total", "Total", "Neonatal", "2007", "566137", "3.5" ]
+, [ 566, "4430F8D9-A181-479E-AD93-51C98F10C155", 566, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Total", "Total", "PostNeonatal", "934", "566137", "1.6" ]
+, [ 567, "BECA250D-B28E-4965-86E6-75B4E84BBA08", 567, 1423781601, "889387", 1423781601, "889387", "{\n}", "2007", "Total", "Total", "Total", "2941", "566137", "5.2" ]
+, [ 568, "11070C5D-66EF-4AE4-9342-2E08A265BB92", 568, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "American Indian", "Male", "Neonatal", "6", "1116", "5.4" ]
+, [ 569, "B8095A2B-D203-4D35-BB2D-77820DA37045", 569, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "American Indian", "Male", "PostNeonatal", "4", "1116", "3.6" ]
+, [ 570, "87622924-091C-4C34-9B50-A5FC3FC19B1F", 570, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "American Indian", "Male", "Total", "10", "1116", "9" ]
+, [ 571, "7C229D59-2A41-4F4A-83BF-A2414144B679", 571, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "American Indian", "Female", "Neonatal", "2", "1020", "2" ]
+, [ 572, "CFA6A0B9-75EB-423C-B3B8-9A965DC06457", 572, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "American Indian", "Female", "PostNeonatal", "2", "1020", "2" ]
+, [ 573, "CFE1E40E-8A40-4357-B7FB-162F35DD6D55", 573, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "American Indian", "Female", "Total", "4", "1020", "3.9" ]
+, [ 574, "4DBFA0E0-56EB-40A7-9CF7-A600496C0380", 574, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "American Indian", "Total", "Neonatal", "8", "2136", "3.7" ]
+, [ 575, "7516AB08-9615-4094-A1CF-A0D26FA5093C", 575, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "American Indian", "Total", "PostNeonatal", "6", "2136", "2.8" ]
+, [ 576, "522A190C-19B7-4BD4-AD28-CC1463A3D9C8", 576, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "American Indian", "Total", "Total", "14", "2136", "6.6" ]
+, [ 577, "5E254368-5B15-43C4-90CE-C937B9EF276E", 577, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Asian", "Male", "Neonatal", "62", "32590", "1.9" ]
+, [ 578, "CA4531B1-4566-4963-9AA4-2916136B8999", 578, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Asian", "Male", "PostNeonatal", "41", "32590", "1.3" ]
+, [ 579, "F840682C-5947-4DF0-961F-4932776D1CE1", 579, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Asian", "Male", "Total", "103", "32590", "3.2" ]
+, [ 580, "D2EABBBB-F509-4919-B2D9-8E39462359EA", 580, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Asian", "Female", "Neonatal", "66", "30359", "2.2" ]
+, [ 581, "92BCD8C6-9684-456F-AA75-EC839E4D8574", 581, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Asian", "Female", "PostNeonatal", "23", "30359", "0.8" ]
+, [ 582, "515BF13F-2311-47FC-AEBD-26BDBA063DC7", 582, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Asian", "Female", "Total", "89", "30359", "2.9" ]
+, [ 583, "9B06F393-1240-4EB6-8C05-FAF4CAEC6FE7", 583, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Asian", "Total", "Neonatal", "128", "62949", "2" ]
+, [ 584, "2878AE52-D963-4836-9D55-2CA51E5D9E56", 584, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Asian", "Total", "PostNeonatal", "64", "62949", "1" ]
+, [ 585, "5DA3C5F5-745D-4AAB-A45A-B7EC7927B106", 585, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Asian", "Total", "Total", "192", "62949", "3.1" ]
+, [ 586, "F3160184-F5CA-4AD0-885A-B0F46137314C", 586, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Black", "Male", "Neonatal", "135", "15338", "8.8" ]
+, [ 587, "264A2E75-EEDA-48D8-8F5B-BEFE741FDB2C", 587, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Black", "Male", "PostNeonatal", "62", "15338", "4" ]
+, [ 588, "2333CBEA-9678-46E0-871E-AE3799F1D03B", 588, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Black", "Male", "Total", "197", "15338", "12.8" ]
+, [ 589, "C7061EC7-6402-4BF6-90CB-6F003D1D10D3", 589, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Black", "Female", "Neonatal", "99", "14678", "6.7" ]
+, [ 590, "64DDB4EC-3C91-4138-AE38-E83BD8D7CB20", 590, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Black", "Female", "PostNeonatal", "50", "14678", "3.4" ]
+, [ 591, "9FD208E9-B327-4B7F-80EB-C0DC370B5ECE", 591, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Black", "Female", "Total", "149", "14678", "10.2" ]
+, [ 592, "536FC44D-0B20-4070-82B8-56982A501710", 592, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Black", "Total", "Neonatal", "234", "30016", "7.8" ]
+, [ 593, "FDD7F456-E13A-4E07-A83D-DF469B9835A1", 593, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Black", "Total", "PostNeonatal", "112", "30016", "3.7" ]
+, [ 594, "4F58B44D-EECE-4DFD-A789-5FCEC39025B0", 594, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Black", "Total", "Total", "346", "30016", "11.5" ]
+, [ 595, "8086E2F2-2509-4558-B40C-55E7FA3F90AC", 595, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Hispanic", "Male", "Neonatal", "568", "149587", "3.8" ]
+, [ 596, "9E989FC9-544E-4285-B89A-2AA1DEA36D9E", 596, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Hispanic", "Male", "PostNeonatal", "250", "149587", "1.7" ]
+, [ 597, "6C84FB9F-28AF-4FDA-A4A1-0E1EEFDA93B5", 597, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Hispanic", "Male", "Total", "818", "149587", "5.5" ]
+, [ 598, "65F09751-096D-4E7B-A8A2-07BBF459C181", 598, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Hispanic", "Female", "Neonatal", "470", "143689", "3.3" ]
+, [ 599, "B84FD0EE-889B-4456-BA90-D06D17F5C157", 599, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Hispanic", "Female", "PostNeonatal", "199", "143689", "1.4" ]
+, [ 600, "4ECD6802-2B6A-475B-9534-BAAEF6AB0C47", 600, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Hispanic", "Female", "Total", "669", "143689", "4.7" ]
+, [ 601, "ED408871-F304-4803-8EFA-C31B40061903", 601, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Hispanic", "Total", "Neonatal", "1038", "293276", "3.5" ]
+, [ 602, "EE6A7E92-049B-43C8-B505-BD64088CAD9A", 602, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Hispanic", "Total", "PostNeonatal", "449", "293276", "1.5" ]
+, [ 603, "1ADB1C22-FDEE-41E4-8228-A2ED0646F8A2", 603, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Hispanic", "Total", "Total", "1487", "293276", "5.1" ]
+, [ 604, "0EA98257-C2B9-4882-BF36-DBA3D48AA0F9", 604, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Not Stated or Unknown", "Male", "Neonatal", "5", "4374", "1.1" ]
+, [ 605, "8205F4F2-772A-499B-B52C-0ADDBC9134DF", 605, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Not Stated or Unknown", "Male", "PostNeonatal", "1", "4374", "0.2" ]
+, [ 606, "8CD4476B-FFCA-43CC-9F84-F8ECC0748417", 606, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Not Stated or Unknown", "Male", "Total", "6", "4374", "1.4" ]
+, [ 607, "4207720B-E443-44DD-8971-B2F02C80CAA3", 607, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Not Stated or Unknown", "Female", "Neonatal", "0", "4184", "0" ]
+, [ 608, "B4F78881-14F1-4234-A939-25DD00ABE63D", 608, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Not Stated or Unknown", "Female", "PostNeonatal", "0", "4184", "0" ]
+, [ 609, "E3AF8527-0246-4DFE-9061-6432448AA30D", 609, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Not Stated or Unknown", "Female", "Total", "0", "4184", "0" ]
+, [ 610, "109DECFC-BBE1-4D9E-8EDC-F53249962A37", 610, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Not Stated or Unknown", "Total", "Neonatal", "5", "8558", "0.6" ]
+, [ 611, "05CD85DC-57C4-4E98-AAA9-45197E7F7D6D", 611, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Not Stated or Unknown", "Total", "PostNeonatal", "1", "8558", "0.1" ]
+, [ 612, "E70D5717-5F32-40B1-B1D2-82DA85E784D5", 612, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Not Stated or Unknown", "Total", "Total", "6", "8558", "0.7" ]
+, [ 613, "15C18F15-8C8C-4D81-905B-020242BE4661", 613, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Pacific Islander/Hawaiian", "Male", "Neonatal", "4", "1278", "3.1" ]
+, [ 614, "9A873D8B-6CC8-452D-B1DE-3250D59DEC56", 614, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "5", "1278", "3.9" ]
+, [ 615, "6FBFC46D-9153-4389-877C-99CE8AA1CC2A", 615, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Pacific Islander/Hawaiian", "Male", "Total", "9", "1278", "7" ]
+, [ 616, "F1773D29-249F-4758-B035-FC8CF3A17B97", 616, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Pacific Islander/Hawaiian", "Female", "Neonatal", "4", "1245", "3.2" ]
+, [ 617, "8A2DD451-DF87-4315-86E8-51FD2DA9D6AC", 617, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "3", "1245", "2.4" ]
+, [ 618, "58A8FC1C-9C0A-41F2-8D7A-D4CBC329D47B", 618, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Pacific Islander/Hawaiian", "Female", "Total", "7", "1245", "5.6" ]
+, [ 619, "4C11B7BB-7067-4E5E-A6A8-ADE7CC35D692", 619, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Pacific Islander/Hawaiian", "Total", "Neonatal", "8", "2523", "3.2" ]
+, [ 620, "A4F832E5-EBB7-43AF-9C90-A466C2B91EA6", 620, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "8", "2523", "3.2" ]
+, [ 621, "1950101B-6434-4667-88F4-7C0D5BD1EA7C", 621, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Pacific Islander/Hawaiian", "Total", "Total", "16", "2523", "6.3" ]
+, [ 622, "560CE72A-40D5-4869-8B05-DB43905FB616", 622, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Two or more races", "Male", "Neonatal", "31", "4208", "7.4" ]
+, [ 623, "C887FDDA-2AB1-4B4E-9B84-C442CC7B2701", 623, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Two or more races", "Male", "PostNeonatal", "16", "4208", "3.8" ]
+, [ 624, "E6CB5DC7-681D-4B17-801F-6207709D443A", 624, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Two or more races", "Male", "Total", "47", "4208", "11.2" ]
+, [ 625, "57F04453-320B-4318-8AF0-BE54CC098E7E", 625, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Two or more races", "Female", "Neonatal", "27", "4011", "6.7" ]
+, [ 626, "34B0AEB8-37A5-4146-A1F7-171C2121E9B2", 626, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Two or more races", "Female", "PostNeonatal", "11", "4011", "2.7" ]
+, [ 627, "28ABC23A-2FCC-4EC1-AB75-D9D7C0BBE278", 627, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Two or more races", "Female", "Total", "38", "4011", "9.5" ]
+, [ 628, "D7692FAE-4D02-44C0-A999-F2B7A5CED844", 628, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Two or more races", "Total", "Neonatal", "58", "8219", "7.1" ]
+, [ 629, "DC32363E-E215-4E55-B856-5D43D14BCB64", 629, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Two or more races", "Total", "PostNeonatal", "27", "8219", "3.3" ]
+, [ 630, "15E74DDC-D62B-4D2A-AC5E-E2CF4D38837E", 630, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Two or more races", "Total", "Total", "85", "8219", "10.3" ]
+, [ 631, "7E023327-22E6-4A95-80EB-D9109B8BBCFF", 631, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "White/Other", "Male", "Neonatal", "286", "79617", "3.6" ]
+, [ 632, "E5B95A9B-C8CF-49FC-BF15-D0141DE02AA9", 632, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "White/Other", "Male", "PostNeonatal", "124", "79617", "1.6" ]
+, [ 633, "F9961BE5-0F14-442A-870C-0EC82A1BD01D", 633, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "White/Other", "Male", "Total", "410", "79617", "5.1" ]
+, [ 634, "99A8B503-364F-4C2E-B4DD-C1D58EB3C12D", 634, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "White/Other", "Female", "Neonatal", "184", "74863", "2.5" ]
+, [ 635, "C217DDBA-682C-4CC8-88D7-995B807C9BA2", 635, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "White/Other", "Female", "PostNeonatal", "89", "74863", "1.2" ]
+, [ 636, "9CC02345-A026-4E41-9CD0-C792B6FB8526", 636, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "White/Other", "Female", "Total", "273", "74863", "3.6" ]
+, [ 637, "18DDB5B8-07C6-435B-8B8E-CC4D3C68BB77", 637, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "White/Other", "Total", "Neonatal", "470", "154480", "3" ]
+, [ 638, "3539C6FD-D152-4B37-AC92-D7A018E5B991", 638, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "White/Other", "Total", "PostNeonatal", "213", "154480", "1.4" ]
+, [ 639, "9979602E-9209-4956-997F-15FA7DC0C895", 639, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "White/Other", "Total", "Total", "683", "154480", "4.4" ]
+, [ 640, "28FADFA4-F287-4F7F-998F-468A8D7FF648", 640, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Total", "Male", "Neonatal", "1097", "288108", "3.8" ]
+, [ 641, "0DBB0152-A678-43DF-AAD9-0ECB7A3A964A", 641, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Total", "Male", "PostNeonatal", "503", "288108", "1.7" ]
+, [ 642, "DB51169B-AB40-4D5F-BC13-1F80A7482A12", 642, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Total", "Male", "Total", "1600", "288108", "5.6" ]
+, [ 643, "9DE4991F-558D-4917-ADC8-9E53C2F91FA2", 643, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Total", "Female", "Neonatal", "852", "274049", "3.1" ]
+, [ 644, "05CCE4D6-F6A3-4A28-86CD-EA3BCB4297E8", 644, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Total", "Female", "PostNeonatal", "377", "274049", "1.4" ]
+, [ 645, "E3A26F08-2610-4711-BDEF-0BBBE369FA19", 645, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Total", "Female", "Total", "1229", "274049", "4.5" ]
+, [ 646, "C1ACE02E-F46F-442D-B72C-B31BB6496E3C", 646, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Total", "Total", "Neonatal", "1949", "562157", "3.5" ]
+, [ 647, "A9716EFF-B90C-4B2E-8D83-D50701674D6F", 647, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Total", "Total", "PostNeonatal", "880", "562157", "1.6" ]
+, [ 648, "D0C365B2-6515-44EC-BBBD-1D02A724DE46", 648, 1423781601, "889387", 1423781601, "889387", "{\n}", "2006", "Total", "Total", "Total", "2829", "562157", "5" ]
+, [ 649, "4EC8DCF3-AA24-466D-9EF1-BA8F56A964F5", 649, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "American Indian", "Male", "Neonatal", "2", "1043", "1.9" ]
+, [ 650, "0CE44F8F-5A02-429E-AA6D-327A5DD061FC", 650, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "American Indian", "Male", "PostNeonatal", "2", "1043", "1.9" ]
+, [ 651, "A0CA554A-521E-4A27-9F2D-078B0A062EF9", 651, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "American Indian", "Male", "Total", "4", "1043", "3.8" ]
+, [ 652, "9C5487AE-4BDD-4DD4-8B8A-69870E885815", 652, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "American Indian", "Female", "Neonatal", "3", "1073", "2.8" ]
+, [ 653, "708CA07B-FADD-48DB-8B33-874821EEBF5A", 653, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "American Indian", "Female", "PostNeonatal", "3", "1073", "2.8" ]
+, [ 654, "D438EC09-935C-4EF1-A542-A5F00EF7535C", 654, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "American Indian", "Female", "Total", "6", "1073", "5.6" ]
+, [ 655, "4CD85EC1-D1F5-4DA4-90CF-119D22ED62A9", 655, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "American Indian", "Total", "Neonatal", "5", "2116", "2.4" ]
+, [ 656, "6E007026-FA7A-4DAB-B747-D6F5ACAA16B9", 656, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "American Indian", "Total", "PostNeonatal", "5", "2116", "2.4" ]
+, [ 657, "867302DE-6764-490A-8872-60D018A05A87", 657, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "American Indian", "Total", "Total", "10", "2116", "4.7" ]
+, [ 658, "D481D172-5023-455E-B784-12B8AFFAF5C4", 658, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Asian", "Male", "Neonatal", "75", "31781", "2.4" ]
+, [ 659, "6F1FD614-2D22-48F6-B0BE-297309BDF075", 659, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Asian", "Male", "PostNeonatal", "32", "31781", "1" ]
+, [ 660, "9F5AEAB5-75C1-4983-A3B4-1FFEBC80E2FE", 660, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Asian", "Male", "Total", "107", "31781", "3.4" ]
+, [ 661, "A38B98CB-77A9-42A7-8981-1E7A9B0BBA9C", 661, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Asian", "Female", "Neonatal", "54", "29954", "1.8" ]
+, [ 662, "3551566B-F0A2-4392-8568-1E753EDBD8AF", 662, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Asian", "Female", "PostNeonatal", "25", "29954", "0.8" ]
+, [ 663, "654F737A-C1E3-4E7D-ADAD-F0970C605943", 663, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Asian", "Female", "Total", "79", "29954", "2.6" ]
+, [ 664, "A4CC6778-A13D-4D76-BABA-3005F35940CD", 664, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Asian", "Total", "Neonatal", "129", "61735", "2.1" ]
+, [ 665, "7915E1CE-CC22-4899-A36D-DB150697B51B", 665, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Asian", "Total", "PostNeonatal", "57", "61735", "0.9" ]
+, [ 666, "F2175864-DEA5-4ABF-91B3-9F060F3E11D4", 666, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Asian", "Total", "Total", "186", "61735", "3" ]
+, [ 667, "AF548C6A-EACD-4D4F-9A2E-AD47732E358C", 667, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Black", "Male", "Neonatal", "125", "14699", "8.5" ]
+, [ 668, "8D07E614-C8EC-4EBE-BE8F-914962EED9F8", 668, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Black", "Male", "PostNeonatal", "83", "14699", "5.6" ]
+, [ 669, "E77433F6-C5EC-40B7-A04E-CDFC14FD6507", 669, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Black", "Male", "Total", "208", "14699", "14.2" ]
+, [ 670, "5D48397D-402C-46D8-9622-DF74918CE107", 670, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Black", "Female", "Neonatal", "98", "14057", "7" ]
+, [ 671, "ABF56D48-B355-46BA-93BB-C865F8EE236C", 671, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Black", "Female", "PostNeonatal", "59", "14057", "4.2" ]
+, [ 672, "DA559050-AD5D-4D74-86E3-BFFEA2BB5FB7", 672, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Black", "Female", "Total", "157", "14057", "11.2" ]
+, [ 673, "CE2AE9A6-4535-42F1-8268-E3E910784657", 673, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Black", "Total", "Neonatal", "223", "28756", "7.8" ]
+, [ 674, "F01845C2-7CB8-4C5E-83DB-DAA488EC427D", 674, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Black", "Total", "PostNeonatal", "142", "28756", "4.9" ]
+, [ 675, "8A0BBA7F-D537-42F0-89BC-05B1E1277BA8", 675, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Black", "Total", "Total", "365", "28756", "12.7" ]
+, [ 676, "316574E1-B9BF-4E9C-A744-341C0D7839C4", 676, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Hispanic", "Male", "Neonatal", "593", "144312", "4.1" ]
+, [ 677, "FD365AF2-0B75-4D29-9801-7B65D7E1946D", 677, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Hispanic", "Male", "PostNeonatal", "245", "144312", "1.7" ]
+, [ 678, "22B73C09-6840-4762-84D1-AA3DF6A461FA", 678, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Hispanic", "Male", "Total", "838", "144312", "5.8" ]
+, [ 679, "3D3AC4F2-3041-425C-9AEA-427649042A7B", 679, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Hispanic", "Female", "Neonatal", "454", "138511", "3.3" ]
+, [ 680, "D77FD3F7-608C-48D9-A892-4EA41E528292", 680, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Hispanic", "Female", "PostNeonatal", "205", "138511", "1.5" ]
+, [ 681, "D3053F5C-0D40-4966-9AB2-2D37CB5E5CDF", 681, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Hispanic", "Female", "Total", "659", "138511", "4.8" ]
+, [ 682, "058A7E09-BB33-4D7A-AD4B-8CBF7E0CCC99", 682, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Hispanic", "Total", "Neonatal", "1047", "282823", "3.7" ]
+, [ 683, "F1047F5B-2F3C-4ED2-B266-CDD67737DC33", 683, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Hispanic", "Total", "PostNeonatal", "450", "282823", "1.6" ]
+, [ 684, "C8A30F97-036F-495E-8D8E-42BEC8A9AF49", 684, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Hispanic", "Total", "Total", "1497", "282823", "5.3" ]
+, [ 685, "EB0523E9-587D-4182-8965-03B20B53C2C8", 685, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Not Stated or Unknown", "Male", "Neonatal", "4", "3740", "1.1" ]
+, [ 686, "DB72485B-4DBA-4D1E-9B15-1E05C8FD747F", 686, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Not Stated or Unknown", "Male", "PostNeonatal", "1", "3740", "0.3" ]
+, [ 687, "93B3A456-6DD4-4591-BF57-23F0332410D7", 687, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Not Stated or Unknown", "Male", "Total", "5", "3740", "1.3" ]
+, [ 688, "57CB7BA7-54E5-4DF7-AE6A-4DD6D651DF67", 688, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Not Stated or Unknown", "Female", "Neonatal", "10", "3492", "2.9" ]
+, [ 689, "4763F92E-F626-4876-B00A-E1A15B78B8BE", 689, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Not Stated or Unknown", "Female", "PostNeonatal", "0", "3492", "0" ]
+, [ 690, "D9F5F0D5-F8E8-4377-97A5-35DFC202AFFF", 690, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Not Stated or Unknown", "Female", "Total", "10", "3492", "2.9" ]
+, [ 691, "13EDA2C9-F6E0-4176-85A6-27D21B5CCBF8", 691, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Not Stated or Unknown", "Total", "Neonatal", "14", "7232", "1.9" ]
+, [ 692, "1F5FAAD8-7D72-4A7C-83B3-C7BBFF15580E", 692, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Not Stated or Unknown", "Total", "PostNeonatal", "1", "7232", "0.1" ]
+, [ 693, "2DA91B65-CD13-4F86-B339-EC514EC3AA74", 693, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Not Stated or Unknown", "Total", "Total", "15", "7232", "2.1" ]
+, [ 694, "392FE771-6715-47C8-B522-203F511AFC3E", 694, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Pacific Islander/Hawaiian", "Male", "Neonatal", "4", "1266", "3.2" ]
+, [ 695, "A02077EB-C507-40AF-8F84-3A5A490F8FB6", 695, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "5", "1266", "3.9" ]
+, [ 696, "A2BBA1D2-1108-443F-8F27-1BB421C1C708", 696, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Pacific Islander/Hawaiian", "Male", "Total", "9", "1266", "7.1" ]
+, [ 697, "BB8D47F8-ED28-49D8-A93F-4148E680BE5C", 697, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Pacific Islander/Hawaiian", "Female", "Neonatal", "8", "1262", "6.3" ]
+, [ 698, "3F2022BA-F1D8-468B-878A-4751D211FD14", 698, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "1", "1262", "0.8" ]
+, [ 699, "029CEB41-A139-4B17-9A57-0BCAA5BB714A", 699, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Pacific Islander/Hawaiian", "Female", "Total", "9", "1262", "7.1" ]
+, [ 700, "C88D1833-BBAD-4235-BE4C-74ED166F01A8", 700, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Pacific Islander/Hawaiian", "Total", "Neonatal", "12", "2528", "4.7" ]
+, [ 701, "684B352E-FC00-4F7C-A2CF-329CECE0EA1C", 701, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "6", "2528", "2.4" ]
+, [ 702, "3BD42C39-D864-4446-80F2-C8F2B920D0D5", 702, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Pacific Islander/Hawaiian", "Total", "Total", "18", "2528", "7.1" ]
+, [ 703, "4FE43F16-9D77-4D1C-B5EC-6E6ED0774FDB", 703, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Two or more races", "Male", "Neonatal", "27", "3701", "7.3" ]
+, [ 704, "ED580C87-600E-4636-B2AA-3348B35A1746", 704, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Two or more races", "Male", "PostNeonatal", "17", "3701", "4.6" ]
+, [ 705, "10A67CB2-CD91-4D8D-A87E-48E4BD30C3BD", 705, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Two or more races", "Male", "Total", "44", "3701", "11.9" ]
+, [ 706, "4CAFD52F-F006-4CB6-A218-FED2477BF12E", 706, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Two or more races", "Female", "Neonatal", "27", "3681", "7.3" ]
+, [ 707, "B90DFF0B-E009-4637-B666-719BFB50511E", 707, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Two or more races", "Female", "PostNeonatal", "16", "3681", "4.3" ]
+, [ 708, "46F6826C-6BFD-4536-A484-844945C3F910", 708, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Two or more races", "Female", "Total", "43", "3681", "11.7" ]
+, [ 709, "8E8DF442-E000-428E-8AF9-4AE92EFDCCF9", 709, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Two or more races", "Total", "Neonatal", "54", "7382", "7.3" ]
+, [ 710, "14EDF735-86E6-41C4-B02C-3EBB0F7EFFCD", 710, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Two or more races", "Total", "PostNeonatal", "33", "7382", "4.5" ]
+, [ 711, "C9EEF627-BF9F-493A-A93F-525F5CEA1E1D", 711, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Two or more races", "Total", "Total", "87", "7382", "11.8" ]
+, [ 712, "EBAF7327-235C-4059-9632-023C362B2B4D", 712, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "White/Other", "Male", "Neonatal", "257", "80048", "3.2" ]
+, [ 713, "016700EB-9809-43FD-B6BF-5F78EB3B9AB2", 713, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "White/Other", "Male", "PostNeonatal", "132", "80048", "1.6" ]
+, [ 714, "5A6F71F5-335F-45A0-822F-109C6A1B24F4", 714, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "White/Other", "Male", "Total", "389", "80048", "4.9" ]
+, [ 715, "2EBE8DEE-50C2-4B8F-910F-0A253F47FE96", 715, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "White/Other", "Female", "Neonatal", "236", "76080", "3.1" ]
+, [ 716, "E4B926DE-5885-40CA-A36D-451FAFDC2C03", 716, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "White/Other", "Female", "PostNeonatal", "110", "76080", "1.4" ]
+, [ 717, "231BC96B-02F8-432A-9270-7F75732EE713", 717, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "White/Other", "Female", "Total", "346", "76080", "4.5" ]
+, [ 718, "DC59B8D5-DE3A-41FE-9E03-207EBD894BCC", 718, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "White/Other", "Total", "Neonatal", "493", "156128", "3.2" ]
+, [ 719, "78A1A809-2571-41B5-8BCD-3357C5A4FE13", 719, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "White/Other", "Total", "PostNeonatal", "242", "156128", "1.6" ]
+, [ 720, "A243116B-670F-482E-B403-DB8B26FAA99B", 720, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "White/Other", "Total", "Total", "735", "156128", "4.7" ]
+, [ 721, "A1832B02-BA01-4D31-BD48-694FD5326761", 721, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Total", "Male", "Neonatal", "1087", "280590", "3.9" ]
+, [ 722, "D0067218-FD42-4295-AEFB-75609A348EB3", 722, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Total", "Male", "PostNeonatal", "517", "280590", "1.8" ]
+, [ 723, "99038DE3-9040-4CEA-9613-BF2A4B7E7531", 723, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Total", "Male", "Total", "1604", "280590", "5.7" ]
+, [ 724, "C0FF356D-ACA9-45A8-A337-517989A3443F", 724, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Total", "Female", "Neonatal", "890", "268110", "3.3" ]
+, [ 725, "91FE7EC9-5174-42E6-A9C6-2F30AED47D0A", 725, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Total", "Female", "PostNeonatal", "419", "268110", "1.6" ]
+, [ 726, "BEFF3EE6-2C65-498D-87B3-601AC2B0FFEA", 726, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Total", "Female", "Total", "1309", "268110", "4.9" ]
+, [ 727, "565FDAB2-E520-4F7B-80CE-8F51EB11DAFD", 727, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Total", "Total", "Neonatal", "1977", "548700", "3.6" ]
+, [ 728, "B41BBCD0-8DA6-4D89-9C3E-7683952F339E", 728, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Total", "Total", "PostNeonatal", "936", "548700", "1.7" ]
+, [ 729, "EF64339A-4EE4-44A4-AF3A-61D5A53A4F30", 729, 1423781601, "889387", 1423781601, "889387", "{\n}", "2005", "Total", "Total", "Total", "2913", "548700", "5.3" ]
+, [ 730, "3EE550B6-6328-4EC5-9E8A-731D14FFC04D", 730, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "American Indian", "Male", "Neonatal", "4", "1052", "3.8" ]
+, [ 731, "79DAF955-BA36-4347-9F23-5D84D36FE89F", 731, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "American Indian", "Male", "PostNeonatal", "3", "1052", "2.9" ]
+, [ 732, "C41F0654-FC3A-4AA1-948B-5EA40254A6A7", 732, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "American Indian", "Male", "Total", "7", "1052", "6.7" ]
+, [ 733, "8BC42BE0-2935-4B88-8543-FC9E1A5239A6", 733, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "American Indian", "Female", "Neonatal", "2", "1021", "2" ]
+, [ 734, "81506BA0-66BD-45A5-BBEB-A8E27E1FA539", 734, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "American Indian", "Female", "PostNeonatal", "1", "1021", "1" ]
+, [ 735, "45B339E3-5B4E-41A4-9CA8-5832ED40FBC1", 735, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "American Indian", "Female", "Total", "3", "1021", "2.9" ]
+, [ 736, "3A9CB35E-3ED0-4628-A9AB-F47A4AFFB005", 736, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "American Indian", "Total", "Neonatal", "6", "2073", "2.9" ]
+, [ 737, "62993F5A-2FDC-4B61-BC1E-F1BD8C4EF41A", 737, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "American Indian", "Total", "PostNeonatal", "4", "2073", "1.9" ]
+, [ 738, "B99FF50E-8AE5-4E54-9E59-A013996B2206", 738, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "American Indian", "Total", "Total", "10", "2073", "4.8" ]
+, [ 739, "524C473E-233F-44CB-B5DF-0D6D27E09EFF", 739, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Asian", "Male", "Neonatal", "69", "31886", "2.2" ]
+, [ 740, "F55D6C95-5C8B-4AFD-A0CD-B77EFA8FBB6C", 740, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Asian", "Male", "PostNeonatal", "37", "31886", "1.2" ]
+, [ 741, "27FCED72-B6A1-4286-A5CF-901D724E1908", 741, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Asian", "Male", "Total", "106", "31886", "3.3" ]
+, [ 742, "5A6C4A02-413C-440B-8779-4AF8F7668807", 742, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Asian", "Female", "Neonatal", "48", "30236", "1.6" ]
+, [ 743, "033D835A-E963-429F-AAAB-E595C9191890", 743, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Asian", "Female", "PostNeonatal", "29", "30236", "1" ]
+, [ 744, "145294F6-FF66-445D-BD93-3518D4605B7D", 744, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Asian", "Female", "Total", "77", "30236", "2.5" ]
+, [ 745, "82ED63DD-D5C7-4354-B0F4-AA92F8905BB5", 745, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Asian", "Total", "Neonatal", "117", "62122", "1.9" ]
+, [ 746, "CC728A2B-2232-46E0-BB38-C494A4AB3D8C", 746, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Asian", "Total", "PostNeonatal", "66", "62122", "1.1" ]
+, [ 747, "162A2680-9614-480D-B7DF-F37FD24F9D07", 747, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Asian", "Total", "Total", "183", "62122", "2.9" ]
+, [ 748, "C688213D-F3BA-46A6-B490-66C58F0AE1E6", 748, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Black", "Male", "Neonatal", "125", "14706", "8.5" ]
+, [ 749, "7CAC425B-0679-45D3-8085-EA3428E4C40D", 749, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Black", "Male", "PostNeonatal", "73", "14706", "5" ]
+, [ 750, "12DF5A65-FC75-4BDF-B3DB-29DC84910868", 750, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Black", "Male", "Total", "198", "14706", "13.5" ]
+, [ 751, "377973CB-467C-4F71-BBFE-BBAEEF6A35FA", 751, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Black", "Female", "Neonatal", "96", "13973", "6.9" ]
+, [ 752, "92C63854-E644-4358-9F99-0D79B1B9FD4B", 752, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Black", "Female", "PostNeonatal", "49", "13973", "3.5" ]
+, [ 753, "484E3CB3-DBB5-4685-A3B1-8CBD588A69AC", 753, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Black", "Female", "Total", "145", "13973", "10.4" ]
+, [ 754, "5825BA0B-E7B9-4281-92CB-C69B43F535D3", 754, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Black", "Total", "Neonatal", "221", "28679", "7.7" ]
+, [ 755, "3840F9DA-3735-4C5E-821D-E1DAA30B3922", 755, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Black", "Total", "PostNeonatal", "122", "28679", "4.3" ]
+, [ 756, "C95BC356-ED5D-4231-BD37-0965B80EB759", 756, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Black", "Total", "Total", "343", "28679", "12" ]
+, [ 757, "CD0E06F0-C9D3-46E4-8915-5D7E22E139C0", 757, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Hispanic", "Male", "Neonatal", "571", "140168", "4.1" ]
+, [ 758, "D4E64570-C66B-4FD4-86EC-E4EFF559573D", 758, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Hispanic", "Male", "PostNeonatal", "239", "140168", "1.7" ]
+, [ 759, "96049D7D-608D-4A3C-881C-BF71389ACC5F", 759, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Hispanic", "Male", "Total", "810", "140168", "5.8" ]
+, [ 760, "28E6DCE3-8411-49D1-A212-78D0B9ACD425", 760, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Hispanic", "Female", "Neonatal", "417", "135020", "3.1" ]
+, [ 761, "04EF06C0-F832-4818-ADCE-7D61DCF947C5", 761, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Hispanic", "Female", "PostNeonatal", "199", "135020", "1.5" ]
+, [ 762, "CB91E07B-B506-43C6-B40F-319E59EC37D2", 762, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Hispanic", "Female", "Total", "616", "135020", "4.6" ]
+, [ 763, "F2ED5FEF-5B38-465E-9BD6-1862FDD93653", 763, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Hispanic", "Total", "Neonatal", "988", "275188", "3.6" ]
+, [ 764, "DF13B8AC-02DA-4067-BDF4-8975A9D759FF", 764, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Hispanic", "Total", "PostNeonatal", "438", "275188", "1.6" ]
+, [ 765, "708A55A6-F365-4855-B611-D91A606120DD", 765, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Hispanic", "Total", "Total", "1426", "275188", "5.2" ]
+, [ 766, "75244B11-9277-4C31-9BAF-573389C77011", 766, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Not Stated or Unknown", "Male", "Neonatal", "1", "3959", "0.3" ]
+, [ 767, "09442889-5564-47B1-BCCB-FF68C4D8DC7B", 767, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Not Stated or Unknown", "Male", "PostNeonatal", "0", "3959", "0" ]
+, [ 768, "49F0F170-204C-4254-86E0-28C39C621585", 768, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Not Stated or Unknown", "Male", "Total", "1", "3959", "0.3" ]
+, [ 769, "A5E6AFE1-D122-45C0-9C17-2C01DDD88972", 769, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Not Stated or Unknown", "Female", "Neonatal", "7", "3780", "1.9" ]
+, [ 770, "26D9A9C1-BADA-4CB7-A2F4-7F7A81FF3340", 770, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Not Stated or Unknown", "Female", "PostNeonatal", "1", "3780", "0.3" ]
+, [ 771, "ADCDD7E5-D0FB-40B0-8ED8-5F1567D6E701", 771, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Not Stated or Unknown", "Female", "Total", "8", "3780", "2.1" ]
+, [ 772, "8E8AFBF3-F9F6-4E08-A304-833F6AF6B496", 772, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Not Stated or Unknown", "Total", "Neonatal", "8", "7739", "1" ]
+, [ 773, "6E913AA1-4736-4C0E-A005-059105AD60F9", 773, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Not Stated or Unknown", "Total", "PostNeonatal", "1", "7739", "0.1" ]
+, [ 774, "21ADA8A0-9277-4086-A39E-A63A86D058E9", 774, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Not Stated or Unknown", "Total", "Total", "9", "7739", "1.2" ]
+, [ 775, "4C663AA5-E65E-4815-84F2-BBE40A81E002", 775, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Pacific Islander/Hawaiian", "Male", "Neonatal", "8", "1276", "6.3" ]
+, [ 776, "C0D20D34-A093-4521-9166-84CFD9682F67", 776, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Pacific Islander/Hawaiian", "Male", "PostNeonatal", "4", "1276", "3.1" ]
+, [ 777, "B4200FD6-F599-4377-A096-A43094BFCDFF", 777, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Pacific Islander/Hawaiian", "Male", "Total", "12", "1276", "9.4" ]
+, [ 778, "51502F1D-EAD7-4B0C-AF90-5DDF1FD4D4EE", 778, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Pacific Islander/Hawaiian", "Female", "Neonatal", "5", "1267", "3.9" ]
+, [ 779, "9AE4BD33-FDB4-4AF7-A2AB-444CAF48838F", 779, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Pacific Islander/Hawaiian", "Female", "PostNeonatal", "3", "1267", "2.4" ]
+, [ 780, "7A4AD4E7-6A71-4832-8667-865649D18B81", 780, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Pacific Islander/Hawaiian", "Female", "Total", "8", "1267", "6.3" ]
+, [ 781, "FF69B7BE-9AFD-43DE-8029-B6A0A8D84981", 781, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Pacific Islander/Hawaiian", "Total", "Neonatal", "13", "2543", "5.1" ]
+, [ 782, "CBD8C023-4117-4F20-B308-2C018C686BD1", 782, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Pacific Islander/Hawaiian", "Total", "PostNeonatal", "7", "2543", "2.8" ]
+, [ 783, "DB435745-0CB1-4EFF-9DA6-3A1718F2D38A", 783, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Pacific Islander/Hawaiian", "Total", "Total", "20", "2543", "7.9" ]
+, [ 784, "990EA5C7-A0FE-4856-A252-7F0B915A1982", 784, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Two or more races", "Male", "Neonatal", "34", "3710", "9.2" ]
+, [ 785, "FC31D04B-6A20-420F-866D-FD277D3790CD", 785, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Two or more races", "Male", "PostNeonatal", "15", "3710", "4" ]
+, [ 786, "6B975779-AFA0-4AE4-ABAA-82DDE42E735F", 786, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Two or more races", "Male", "Total", "49", "3710", "13.2" ]
+, [ 787, "E74D3449-2D6E-4AA1-B25B-0BBAC3A605C6", 787, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Two or more races", "Female", "Neonatal", "23", "3452", "6.7" ]
+, [ 788, "75C6BEAC-E846-4C9A-AD08-98AB6ABD0497", 788, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Two or more races", "Female", "PostNeonatal", "18", "3452", "5.2" ]
+, [ 789, "826DBCF3-F324-47DB-9D17-BF6AE9503182", 789, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Two or more races", "Female", "Total", "41", "3452", "11.9" ]
+, [ 790, "B122DBB4-B905-4844-AD0B-DC5EF8467B77", 790, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Two or more races", "Total", "Neonatal", "57", "7162", "8" ]
+, [ 791, "34825E1C-8877-4777-A80E-79FAFB5A9A00", 791, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Two or more races", "Total", "PostNeonatal", "33", "7162", "4.6" ]
+, [ 792, "CBF1017F-F590-433D-981B-AE7448433BEC", 792, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Two or more races", "Total", "Total", "90", "7162", "12.6" ]
+, [ 793, "21AE11EB-D463-44CD-996E-4AD5D0F30B21", 793, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "White/Other", "Male", "Neonatal", "269", "81557", "3.3" ]
+, [ 794, "A8964F2E-91E1-4416-9DE8-3BC4DE4EBF93", 794, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "White/Other", "Male", "PostNeonatal", "131", "81557", "1.6" ]
+, [ 795, "3FCEC282-F438-4414-8D6D-FA4B7E88CCD7", 795, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "White/Other", "Male", "Total", "400", "81557", "4.9" ]
+, [ 796, "28CF7E09-E15A-47C1-B7A5-6B9BF6B19BD7", 796, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "White/Other", "Female", "Neonatal", "225", "77622", "2.9" ]
+, [ 797, "965EEF00-0D17-4530-81F5-7149A1D5DC7E", 797, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "White/Other", "Female", "PostNeonatal", "105", "77622", "1.4" ]
+, [ 798, "757735C1-0C0B-4962-AE3F-26E523673463", 798, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "White/Other", "Female", "Total", "330", "77622", "4.3" ]
+, [ 799, "581372BB-D3DA-4850-AEF8-283F3BBCA709", 799, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "White/Other", "Total", "Neonatal", "494", "159179", "3.1" ]
+, [ 800, "9FB05E4B-7D03-45D9-A507-CF87DEA41B16", 800, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "White/Other", "Total", "PostNeonatal", "236", "159179", "1.5" ]
+, [ 801, "46667244-1288-4318-8B9F-82721D7923F8", 801, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "White/Other", "Total", "Total", "730", "159179", "4.6" ]
+, [ 802, "08B8B60A-3D80-4362-ADAE-1CFB6132997A", 802, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Total", "Male", "Neonatal", "1081", "278314", "3.9" ]
+, [ 803, "350B0442-1FC1-48D8-851A-99BD24D13EB9", 803, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Total", "Male", "PostNeonatal", "502", "278314", "1.8" ]
+, [ 804, "E85CAE42-958C-4E0F-A14B-C21DF08D67DB", 804, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Total", "Male", "Total", "1583", "278314", "5.7" ]
+, [ 805, "8C36CC00-318D-4C70-AE5B-E1D8DC8EDFCE", 805, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Total", "Female", "Neonatal", "823", "266371", "3.1" ]
+, [ 806, "60843007-5699-4EF2-8B25-2F6E7DAF8F32", 806, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Total", "Female", "PostNeonatal", "405", "266371", "1.5" ]
+, [ 807, "62F3A111-4B03-465A-AD51-DE87927FCCDC", 807, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Total", "Female", "Total", "1228", "266371", "4.6" ]
+, [ 808, "374A0FF1-EF62-4DDD-9F7E-01F9C4308ED9", 808, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Total", "Total", "Neonatal", "1904", "544685", "3.5" ]
+, [ 809, "CA41D9DA-9955-4D8C-92AA-D2F54031BBA2", 809, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Total", "Total", "PostNeonatal", "907", "544685", "1.7" ]
+, [ 810, "D001F0FD-D827-4EB5-A31B-65781ACBE23A", 810, 1423781601, "889387", 1423781601, "889387", "{\n}", "2004", "Total", "Total", "Total", "2811", "544685", "5.2" ]
+ ]
+}
