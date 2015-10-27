@@ -1,0 +1,30 @@
+{
+  "name": "governmentstats",
+  "version": "1.0.0",
+  "description": "government stats api",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.4.2",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.2",
+    "csv-parse": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lleo5301/governmentstats.git"
+  },
+  "keywords": [
+    "open",
+    "government"
+  ],
+  "author": "leonardo quintero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lleo5301/governmentstats/issues"
+  },
+  "homepage": "https://github.com/lleo5301/governmentstats#readme"
+}
