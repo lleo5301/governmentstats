@@ -1,115 +1,101 @@
 var mongoose = require('mongoose');
 var db = require('./config/db.js');
 var async = require('async');
-
+var fs = require('fs');
+var parse = require('csv-parse');
+var Consumer = require('./models/ConsumerComplaint.js');
+// var models = {Consumer:require('./models/ConsumerComplaint.js')}
 //connect to db
 mongoose.connect(db.db_url);
 
-//import models
-var Unemployment = require('./models/unemployement');
-
-//retrieve file for parsing
-var u_file = require(db.unemployement_file);
-
-//placeholder for our columns
-var columns = []; 
-
-var allData = []
-
-//function to add unemployment record to db
-var addUnenployment = function(item,callback){
-	
-	
-	// console.log(new_unemployement);
-	//add to db
-	// new_unemployement = new Unemployment(new_unemployement);
-	var newU = new Unemployment(item)
-	// allData.push(newU);
-
-	// console.log(new_unemployement);
-	newU.save(function(err, new_unemployement){
-		console.log('this happened');
-		if(err){
-			console.log(err.message);
-			// callback(err);
-		}else{
-			console.log('record Added');
-			// callback();
-		}
-		callback();
-	})
-	
-
-}
 
 
 
-//handle error
-var err_callback = function(e){
-	// console.log(e);
-	console.log(allData);
-}
-// newU = new Unemployment();
-// newU.save(function(err, data){
-// 	console.log(err, data); 
-// })
-
-//function to parse data
-//recieves a file
-//parses into mongodb
-var parse = function(data){
-	console.log('running parse');
-	//get columns to build object
-	columns = get_columns(data.meta.view.columns);
-    var rows = data.data;
-    var all_data = [];
-    rows.map(function(item){
-    	var new_unemployement = {};
-    	 item.map(function(column,i){
-			new_unemployement[columns[i]] = column;
-		});
-    	all_data.push(new_unemployement);
-    })
-    console.log(all_data.length);
+var q = async.queue(function (record, callback) {
+			console.log(record._id, ' Added to queue');
+	   		record.save(function(err, newRecord){
+	 			if(err){
+	 				console.log(err)
+	 			}else{
+	 				console.log(newRecord._id);
+	 			}
+	 			callback();
+		 	})
    
-    async.each(all_data,function(item,callback){
-	
-	console.log('running add');
-	// console.log(new_unemployement);
-	//add to db
-	// new_unemployement = new Unemployment(new_unemployement);
-	var newU = new Unemployment(item)
-	// allData.push(newU);
+},2);
 
-	// console.log(new_unemployement);
-	newU.save(function(err, new_unemployement){
-		console.log('this happened');
-		console.log(err, new_unemployement);
-		callback();
-	})
-	
-
-},err_callback);
-    
-
+q.drain = function() {
+    console.log('all items have been processed');
 }
 
-//function to get columns
-//returns column arrays
-var get_columns = function(columnArray){
-	var columns =[];
-	columnArray.map(function(col){
-		columns.push(col.name);
+
+//parse files in db 
+db.files.map(function(file){
+	console.log('going through file');
+	// console.log(file);
+	// console.log(db.fileLocation+file.name);
+	var fileToRead = db.fileLocation+file.name;
+	fs.readFile(fileToRead, function(err, data){
+		if (err)
+			throw err
+		// console.log(data);
+
+		// get Fields
+		var fields = data.toString().split('\n')[0].toLowerCase()
+												.replace(/ /g,'')
+												.replace(/-/g,'')
+												.split(',');
+
+		//send file for parsing
+		var json = parseFile(fileToRead, file.delimeter,fields);
+		console.log(json.length);
+		addData(file.model, json);
+		
+		
 	});
 
-	return columns
+
+})
+
+var addData = function(model, data){
+	// console.log(models);
+	// var Model = models[model];
+	 data.map(function(record){
+	 	var newRecord =	new Consumer(record);
+	 		q.push(newRecord, function(err){
+	 			console.log(err);
+	 		})
+	 		
+	 })
 }
 
 
-//begin parsing 
-parse(u_file);
+//returns json objects from csv file
+var parseFile = function(file, delimeter, fields){
+	console.log('parsing file');
+	var parser = parse({delimeter:delimeter, columns:fields});
+
+    var file = fs.readFileSync(file).toString();
+    // console.log(file);
+    var output = [];
+    parser.on('readable', function(){
+      while(record = parser.read()){
+      	// console.log(record.complaintid);
+        output.push(record);
+      }
+    })
 
 
+    parser.on('finished', function(){
+   	 	console.log('done');
+    });
 
+    parser.write(file);
 
+    parser.end();
+    console.log('done Parsing file');
+    return output	
+}
+
+//import models
 
