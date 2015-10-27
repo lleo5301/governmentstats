@@ -11,10 +11,14 @@ mongoose.connect(db.db_url);
 //config app
 app.use(bodyParser.json());
 
+//bower route
+app.use('/bower', express.static('./bower_components'));
+
+//public route
+app.use('/', express.static('./public'));
+
 //simple api route
 app.get('/api/', function(req,res){
-
-	
 	Complaint.find().limit(100).exec(function(err, data){
 		 if(err){
 		 	console.log(err)
