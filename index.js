@@ -35,7 +35,7 @@ app.get('/api/aggregate/byProduct', function(req,res){
 	var aggregate = [
 	{$group:{_id:'$product', count:{$sum:1}}
 
-	}];
+	},{$project:{_id:0, product:'$_id', total:'$count'}}];
 	sendAggregate(aggregate,res);
 })
 
@@ -45,7 +45,7 @@ app.get('/api/aggregate/byZip/:zip', function(req, res){
 	var aggregate = [{$match:{zipcode:zip}},
 					 {$group: {_id:{product:'$product', zip:'$zipcode'}, 
 					 		  count:{$sum:1}}
-					 }];
+					 },{$project:{_id:0,product:'$_id.product',total:'$count'}}];
 
 	//send aggregate
 	sendAggregate(aggregate, res);
@@ -62,6 +62,7 @@ var sendAggregate = function(aggregate, res){
 		}
 	})
 }
+
 
 
 
