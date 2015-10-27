@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Stats</title>
+	<style>
+		.bar {
+		  fill: steelblue;
+		}
+
+		.bar:hover {
+		  fill: brown;
+		}
+
+		.axis {
+		  font: 10px sans-serif;
+		}
+
+		.axis path,
+		.axis line {
+		  fill: none;
+		  stroke: #000;
+		  shape-rendering: crispEdges;
+		}
+
+		.x.axis path {
+		  display: none;
+		}
+	</style> 
+</head>
+<body>
+<div class="flex-container" ng-app="stats" ng-controller="mainController">
+	<div id="chart">
+
+	</div>
+	
+</div>
+
+<script src="bower/angular/angular.js"></script>
+<script src="bower/d3/d3.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>
