@@ -1,0 +1,25 @@
+{
+  "name": "governmentstats",
+  "description": "government stats api",
+  "main": "index.js",
+  "authors": [
+    "leonardo quintero"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "open",
+    "government"
+  ],
+  "homepage": "https://github.com/lleo5301/governmentstats",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
