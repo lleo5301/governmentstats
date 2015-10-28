@@ -5,7 +5,7 @@
 	<title>Stats</title>
 	<style>
 		.bar {
-		  fill: steelblue;
+		  fill: rgba(49, 71, 88, 0.99);
 		}
 
 		.bar:hover {
@@ -13,12 +13,16 @@
 		}
 
 		.axis {
-		  font: 10px sans-serif;
+		  font: 12px arial;
+		}
+		text:hover{
+			font-size:15px;
 		}
 
 		.axis path,
 		.axis line {
 		  fill: none;
+		  stroke-width:2;
 		  stroke: #000;
 		  shape-rendering: crispEdges;
 		}
@@ -26,12 +30,24 @@
 		.x.axis path {
 		  display: none;
 		}
+		.line{
+			fill:none;
+			stroke:steelblue;
+			stroke-width: 2;
+			shape-rendering: auto;
+		}
 	</style> 
 </head>
 <body>
 <div class="flex-container" ng-app="stats" ng-controller="mainController">
-	<div id="chart">
+	<div id="products">
 
+	</div>
+	<div id="years">
+		
+	</div>
+	<div id="series">
+		
 	</div>
 	
 </div>
