@@ -4,6 +4,8 @@ var mongoose = require('mongoose');
 var Complaint = require('./models/ConsumerComplaint.js');
 var db = require('./config/db.js');
 var app = express();
+var redis = require('redis');
+var client = redis.createClient();
 
 //connect db
 mongoose.connect(db.db_url);
@@ -39,6 +41,21 @@ app.get('/api/aggregate/byProduct', function(req,res){
 	sendAggregate(aggregate,res);
 })
 
+app.get('/api/aggregate/byyearandproduct', function(req,res){
+	var aggregate = [
+	{$group:{
+			_id:{year:{$year:'$datereceived'}, product:'$product'},
+			count:{$sum:1}}},
+ 	{$project:{_id:0, year:'$_id.year', product:'$_id.product', total:'$count'}},
+ 	{$group:{_id:'$year', products:{$push:{product:'$product', total:'$total'}}}},
+ 	//clean up
+ 	{$project:{_id:0, year:'$_id', products:'$products'}},
+ 	{$sort:{year:1}}
+	]
+
+	sendAggregate(aggregate, res);
+})
+
 app.get('/api/aggregate/byZip/:zip', function(req, res){
 	var zip = req.params.zip
 	if(zip){
@@ -54,11 +71,19 @@ app.get('/api/aggregate/byZip/:zip', function(req, res){
 	}	
 })
 
+app.get('/api/aggregate/byyear', function(req,res){
+	var aggregate = [{$group:{_id:{year:{$year:'$datereceived'}},count:{$sum:1}}},
+					 {$project:{_id:0, year:'$_id.year', total:'$count' }}]
+	sendAggregate(aggregate, res);
+})
+
 //callback for aggregate
 var sendAggregate = function(aggregate, res){
 	Complaint.aggregate(aggregate).exec(function(err, results){
 		if(!err){
 			res.json(results);
+		}else{
+			console.log(err);
 		}
 	})
 }
