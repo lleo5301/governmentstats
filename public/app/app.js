@@ -13,9 +13,16 @@ app.controller('mainController', ['$scope', '$http', function($scope, $http){
 		return res.data;
 	}).then(createLine);
 
+	$http.get('api/aggregate/byyearandproduct').then(function(res){
+		return res.data;
+	}).then(createMultiSeries);
+
+	// $http.get('http://reports.togetherhealth.com/api/v2/forecast').then(function(res){
+	// 	return res.data;
+	// }).then(createMultiSeries);
 
 	function createChart(data){
-		console.log(data);
+		// console.log(data);
 		//d3 functions
 		var margin = {top:20, right:0, bottom:150, left:100},
 			width = 1080 - margin.left - margin.right,
@@ -79,7 +86,7 @@ app.controller('mainController', ['$scope', '$http', function($scope, $http){
 		}
 
 	function createLine(data){
-		console.log(data);
+		// console.log(data);
 		var margin = {top: 100, right: 20, bottom: 30, left: 100},
 	    width = 960 - margin.left - margin.right,
 	    height = 500 - margin.top - margin.bottom;
@@ -163,8 +170,54 @@ app.controller('mainController', ['$scope', '$http', function($scope, $http){
 	    
 		var parseDate = d3.time.format("%Y").parse;
 
+		var x = d3.time.scale()
+		    .range([0, width]);
+
+		var y = d3.scale.linear()
+		    .range([height, 0]);
+
+		var color = d3.scale.category10();
+		var xAxis = d3.svg.axis()
+		    .scale(x)
+		    .orient("bottom");
+
+		var yAxis = d3.svg.axis()
+		    .scale(y)
+		    .orient("left");
+
+		var line = d3.svg.line()
+		    .interpolate("basis")
+		    .x(function(d) { return x(d.year); })
+		    .y(function(d) { return y(d.total); });
+
+		var svg = d3.select("body").append("svg")
+		    .attr("width", width + margin.left + margin.right)
+		    .attr("height", height + margin.top + margin.bottom)
+		  .append("g")
+		    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	 	data.forEach(function(d){
+	 		d.date = parseDate(d.year.toString());
+	 	});
+	 	 color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
+	 	var products = color.domain().map(function(product){
+
+	 		return{
+	 			name:year,
+	 			values:product.products.map(function(d){
+	 				return{date:d.product, total: +d.total}
+	 			})
+
+	 		}
+	 	});
+
+	 	console.log(products);
+
+
 	}
 
+
+    
 
 
 }])
